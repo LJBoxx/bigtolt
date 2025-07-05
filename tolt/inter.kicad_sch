@@ -1150,9 +1150,67 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 64.516 73.66)
+		(end 77.216 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22329593-74df-4015-99f5-a5b1908105bd)
+	)
+	(rectangle
+		(start 64.008 22.352)
+		(end 76.708 33.782)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5632b0a2-e07e-4e1c-bf2f-49d0d3eaedad)
+	)
+	(rectangle
+		(start 65.532 129.286)
+		(end 78.232 140.716)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af4128ee-bda0-4fc4-b805-3f61b8de151b)
+	)
+	(rectangle
+		(start 27.432 20.066)
+		(end 98.298 181.102)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ee83ead9-8348-4128-a8f7-febce5451743)
+	)
+	(text "gate drivers\n\n"
+		(exclude_from_sim no)
+		(at 91.186 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75a5d64f-9284-4c22-bbdf-8f492820355e")
+	)
 	(text "external bootstrap \n\noptionnal for test\n\nPlace only footprint\n\n"
 		(exclude_from_sim no)
-		(at 85.852 34.544 0)
+		(at 85.598 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1170,6 +1228,26 @@
 			(justify left bottom)
 		)
 		(uuid "a025a409-3f58-4a5a-8009-06ddf38d8a4a")
+	)
+	(text_box "Need to add lowpass filter and check how sd/od really works (seems to be pulled high normally)\nCheck the driver datasheet\n"
+		(exclude_from_sim no)
+		(at 100.076 58.166 0)
+		(size 35.814 11.684)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "97378082-df46-495c-9145-ddd6afcd4dae")
 	)
 	(junction
 		(at 44.45 168.656)
@@ -1254,6 +1332,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c76d30d4-ae85-4edf-9fc4-5a669ecb648f")
+	)
+	(junction
+		(at 80.264 62.738)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d032ef8e-bea9-4925-ba45-67b715dab2a6")
 	)
 	(junction
 		(at 43.18 54.102)
@@ -1390,6 +1474,16 @@
 			(type default)
 		)
 		(uuid "34836f29-3cde-4715-9e57-8a2d3daf9946")
+	)
+	(wire
+		(pts
+			(xy 69.596 62.738) (xy 69.596 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352b8c32-80a7-4dfb-97a9-cbe4661b59b8")
 	)
 	(wire
 		(pts
@@ -1683,6 +1777,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.264 62.738) (xy 69.596 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb43237-0140-4473-ba14-924309d8deb1")
+	)
+	(wire
+		(pts
 			(xy 138.938 174.244) (xy 132.842 174.244)
 		)
 		(stroke
@@ -1735,6 +1839,17 @@
 		)
 		(uuid "48ca8056-2e58-424e-847b-9556c83a8f10")
 	)
+	(hierarchical_label "sens_a+"
+		(shape input)
+		(at 69.596 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4edf27ef-6e24-4869-bf59-7cc318b83635")
+	)
 	(hierarchical_label "L_A"
 		(shape input)
 		(at 49.276 46.482 180)
@@ -1778,6 +1893,17 @@
 			(justify left)
 		)
 		(uuid "743f5b42-de7a-4e84-9bd0-652fc1eb0344")
+	)
+	(hierarchical_label "sens_b+"
+		(shape input)
+		(at 69.85 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dbf6bd4-916b-46a8-b0e7-7f710946d8f7")
 	)
 	(hierarchical_label "L_B"
 		(shape input)
@@ -1877,6 +2003,17 @@
 			(justify left)
 		)
 		(uuid "c5ce1d59-8c43-4f02-a18f-65f670d8945d")
+	)
+	(hierarchical_label "sens_c+"
+		(shape input)
+		(at 70.866 163.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb1a2aad-5b7f-42ab-b555-5eb048dd4a24")
 	)
 	(hierarchical_label "Ph_c"
 		(shape bidirectional)
@@ -2738,6 +2875,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.264 58.928 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78458f0e-8f23-470d-9928-379cbe18e8f7")
+		(property "Reference" "R36"
+			(at 82.296 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 82.296 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.486 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.264 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.264 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c32525d-fd31-47c7-8968-5332161be014")
+		)
+		(pin "1"
+			(uuid "320e60b2-0148-46fa-9227-17f7848a1970")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4016,6 +4223,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.264 66.548 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2738c96-dd9b-4192-a766-150aea4f7193")
+		(property "Reference" "R37"
+			(at 82.296 65.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 82.296 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.486 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.264 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.264 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d8e66d8-e530-4c9f-add1-450f1bc3c729")
+		)
+		(pin "1"
+			(uuid "da0565ea-d94c-4900-8f32-1b4c99c14a09")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
+					(reference "R37")
 					(unit 1)
 				)
 			)
