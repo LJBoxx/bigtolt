@@ -403,11 +403,15 @@
     ],
     [
       "410a2c08-a3a0-4066-ae14-a5c75baf28bb",
-      "mcu"
+      "logic"
     ],
     [
       "ca9cc269-3e36-4e00-8810-1c2cb270ed60",
       "INTER"
+    ],
+    [
+      "e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6",
+      "powerstage"
     ]
   ],
   "text_variables": {}
