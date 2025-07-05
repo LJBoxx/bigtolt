@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "765de9bc-d7a6-4031-ac82-86ff4c6c5d0d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,6 +142,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Driver_FET:L6491"
 			(exclude_from_sim no)
@@ -221,6 +224,24 @@
 			)
 			(symbol "L6491_1_1"
 				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "HIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "~{LIN}"
@@ -231,96 +252,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "CP+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -5.08 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "HVG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -347,16 +278,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "HIN"
+					(name "DT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -375,24 +306,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "DT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -436,6 +349,79 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "HVG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 10.16 -2.54 180)
 					(length 2.54)
@@ -447,6 +433,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "CP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -473,12 +477,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -550,7 +559,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -562,7 +571,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -593,6 +602,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -672,7 +682,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -689,12 +700,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDPWR"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -754,18 +770,6 @@
 			(symbol "GNDPWR_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
 					)
 					(stroke
@@ -782,6 +786,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -857,7 +873,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "decoupling and bulk for drivers.\n"
+		(exclude_from_sim no)
+		(at 107.95 192.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a025a409-3f58-4a5a-8009-06ddf38d8a4a")
 	)
 	(junction
 		(at 132.842 174.244)
@@ -1067,17 +1095,6 @@
 		)
 		(uuid "ffa01bb2-e82d-46cb-838a-5cb9b1511c09")
 	)
-	(text "decoupling and bulk for drivers.\n"
-		(exclude_from_sim no)
-		(at 107.95 192.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a025a409-3f58-4a5a-8009-06ddf38d8a4a")
-	)
 	(symbol
 		(lib_id "Driver_FET:L6491")
 		(at 59.436 49.022 0)
@@ -1177,7 +1194,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "U2")
 					(unit 1)
 				)
@@ -1243,7 +1260,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -1309,7 +1326,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -1375,7 +1392,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -1444,7 +1461,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C16")
 					(unit 1)
 				)
@@ -1510,7 +1527,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -1579,7 +1596,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C17")
 					(unit 1)
 				)
@@ -1645,7 +1662,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -1715,7 +1732,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C15")
 					(unit 1)
 				)
@@ -1821,7 +1838,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "U3")
 					(unit 1)
 				)
@@ -1887,7 +1904,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -1953,7 +1970,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -2019,7 +2036,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -2088,7 +2105,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C21")
 					(unit 1)
 				)
@@ -2154,7 +2171,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -2260,7 +2277,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "U4")
 					(unit 1)
 				)
@@ -2326,7 +2343,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -2392,7 +2409,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -2458,7 +2475,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -2527,7 +2544,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C23")
 					(unit 1)
 				)
@@ -2593,7 +2610,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -2662,7 +2679,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C22")
 					(unit 1)
 				)
@@ -2731,7 +2748,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C19")
 					(unit 1)
 				)
@@ -2797,7 +2814,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -2866,7 +2883,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C18")
 					(unit 1)
 				)
@@ -2935,7 +2952,7 @@
 		)
 		(instances
 			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/0d78b85c-f879-4306-8282-e8ae728a82dc"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "C20")
 					(unit 1)
 				)
