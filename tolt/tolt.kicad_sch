@@ -985,6 +985,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.352 98.298) (xy 228.346 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256b6049-b7db-4777-82d8-5907dfb70d33")
+	)
+	(wire
+		(pts
 			(xy 149.352 75.438) (xy 175.006 75.438)
 		)
 		(stroke
@@ -1102,6 +1112,16 @@
 			(type default)
 		)
 		(uuid "a64cd55d-7e7f-485c-ba04-63b467423444")
+	)
+	(wire
+		(pts
+			(xy 149.352 93.726) (xy 228.346 93.726)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c2d356-a365-4d30-b134-60287e7a1a82")
 	)
 	(wire
 		(pts
@@ -1252,6 +1272,16 @@
 			(type default)
 		)
 		(uuid "eb858e0f-ab33-4d93-86ca-775afa26ddbf")
+	)
+	(wire
+		(pts
+			(xy 149.352 96.012) (xy 228.346 96.012)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe6d3ef-6c2d-478b-a0ac-6aacddb153e7")
 	)
 	(wire
 		(pts
@@ -1764,7 +1794,7 @@
 			)
 		)
 		(pin "ADC_15" input
-			(at 114.3 83.312 180)
+			(at 114.3 97.028 180)
 			(uuid "df1162da-f1a0-47ce-962b-5a09009f6932")
 			(effects
 				(font
@@ -1774,37 +1804,37 @@
 			)
 		)
 		(pin "ADC_T1" input
-			(at 114.3 80.772 180)
+			(at 149.352 98.298 0)
 			(uuid "e086085f-bf4c-4a28-9d67-4e7a04a3af65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "ADC_T2" input
-			(at 114.3 78.232 180)
+			(at 149.352 96.012 0)
 			(uuid "b1b6e74d-0285-49f2-9ab0-601321c4d18b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "ADC_T3" input
-			(at 114.3 75.692 180)
+			(at 149.352 93.726 0)
 			(uuid "8818f0e0-48fd-4bb1-8221-1e510ac16fd1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "aux" bidirectional
-			(at 114.3 73.406 180)
+			(at 114.3 94.996 180)
 			(uuid "ab802f69-405b-449e-979b-c29baea3e432")
 			(effects
 				(font
@@ -1924,7 +1954,7 @@
 			)
 		)
 		(pin "led_green" output
-			(at 129.54 153.924 270)
+			(at 140.462 153.924 270)
 			(uuid "4f3243ba-63c1-4aa2-9851-f646c51807f9")
 			(effects
 				(font
@@ -1934,7 +1964,7 @@
 			)
 		)
 		(pin "led_red" output
-			(at 132.588 153.924 270)
+			(at 143.51 153.924 270)
 			(uuid "571424d2-2cbc-4bf5-8483-35b4ca98446f")
 			(effects
 				(font
@@ -1944,7 +1974,7 @@
 			)
 		)
 		(pin "MISO_ADC_EXT2" input
-			(at 114.3 49.276 180)
+			(at 114.3 62.992 180)
 			(uuid "40204d10-9ebe-4849-8062-622392c05e2f")
 			(effects
 				(font
@@ -1954,7 +1984,7 @@
 			)
 		)
 		(pin "NRF_swclk" output
-			(at 114.3 144.526 180)
+			(at 120.65 153.924 270)
 			(uuid "9f2d283e-f17c-4d6f-84eb-1fd132d6db0f")
 			(effects
 				(font
@@ -1964,7 +1994,7 @@
 			)
 		)
 		(pin "NRF_swdio" bidirectional
-			(at 114.3 146.812 180)
+			(at 123.698 153.924 270)
 			(uuid "87feac8e-cc8b-4743-bb9f-d07cd5c0359f")
 			(effects
 				(font
@@ -1974,7 +2004,7 @@
 			)
 		)
 		(pin "PC10_UART_TX" output
-			(at 114.3 51.308 180)
+			(at 114.3 65.024 180)
 			(uuid "6afb3734-5dfd-4a20-a737-9435839fb04c")
 			(effects
 				(font
@@ -1984,7 +2014,7 @@
 			)
 		)
 		(pin "PC11_UART_RX" input
-			(at 114.3 53.34 180)
+			(at 114.3 67.056 180)
 			(uuid "b22885e0-e0f3-4ad2-8b6a-e2f2ec69eef9")
 			(effects
 				(font
@@ -1994,7 +2024,7 @@
 			)
 		)
 		(pin "RX_SDA_NSS" bidirectional
-			(at 114.3 55.372 180)
+			(at 114.3 69.088 180)
 			(uuid "321a430a-d5da-4506-97e8-584355342532")
 			(effects
 				(font
@@ -2004,7 +2034,7 @@
 			)
 		)
 		(pin "SCK_ADC_EXT" input
-			(at 114.3 47.244 180)
+			(at 114.3 60.96 180)
 			(uuid "dc4ef106-441d-4c79-9bc6-f593cc9a4e48")
 			(effects
 				(font
@@ -2094,7 +2124,7 @@
 			)
 		)
 		(pin "SERVO" output
-			(at 114.3 71.374 180)
+			(at 114.3 92.964 180)
 			(uuid "81d59f9e-64a3-4b75-ac0f-c4a8c4980b1a")
 			(effects
 				(font
@@ -2134,7 +2164,7 @@
 			)
 		)
 		(pin "TX_SCL_MOSI" output
-			(at 114.3 57.658 180)
+			(at 114.3 71.374 180)
 			(uuid "72448bbe-9337-4bdc-b6b7-9307d0958e0c")
 			(effects
 				(font
@@ -2658,6 +2688,36 @@
 		(pin "sens_c-" input
 			(at 228.346 127.254 180)
 			(uuid "f24e316b-b873-45fb-abaa-5e06090ff3fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP" output
+			(at 228.346 98.298 180)
+			(uuid "c39938f4-0ce6-46ed-8a30-5aebd3674096")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP1" output
+			(at 228.346 96.012 180)
+			(uuid "f416bc7f-c25d-4146-bd2b-b9fe53553b60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP2" output
+			(at 228.346 93.726 180)
+			(uuid "6fcd9d13-a31d-4b0a-9f73-16737878c609")
 			(effects
 				(font
 					(size 1.27 1.27)

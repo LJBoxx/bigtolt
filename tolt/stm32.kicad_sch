@@ -3514,6 +3514,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 158.75 18.288)
+		(end 207.518 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28482231-3e19-4941-b681-2a33425dd1db)
+	)
+	(rectangle
+		(start 207.518 12.954)
+		(end 283.718 169.672)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7539d0c0-d4e3-40f8-b299-0b42eac7f774)
+	)
 	(text "close to vdd pin"
 		(exclude_from_sim no)
 		(at 82.042 28.702 0)
@@ -3524,15 +3548,35 @@
 		)
 		(uuid "071ca499-15cb-4c8a-9ddf-fffe3a8c6477")
 	)
+	(text "0.3mr with 20gain\n0.1mr with 50gain"
+		(exclude_from_sim no)
+		(at 217.678 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28d27226-3931-40f1-b872-4a592bf2dfe6")
+	)
 	(text "place close to vdda "
 		(exclude_from_sim no)
-		(at 72.39 181.102 0)
+		(at 54.102 180.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "4c1a8168-d0e7-4980-910e-5f999197d62e")
+	)
+	(text "Gain 20V/V\n"
+		(exclude_from_sim no)
+		(at 275.336 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bb88d90-bf99-438c-9dec-8afbf7922ef5")
 	)
 	(text "bypass caps\n"
 		(exclude_from_sim no)
@@ -3557,7 +3601,7 @@
 		(uuid "1ee13449-10e9-4a6a-b9d7-b8d937921a52")
 	)
 	(junction
-		(at 66.04 170.688)
+		(at 47.752 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23c50a30-2ca3-4063-bb8e-44a4b8a8eef5")
@@ -3587,7 +3631,7 @@
 		(uuid "36fc7331-e523-4b22-ae5d-14fd6dffd9f0")
 	)
 	(junction
-		(at 66.04 163.068)
+		(at 47.752 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46869d3d-d978-450a-a5ad-fa360346e375")
@@ -3617,7 +3661,7 @@
 		(uuid "9dff05dc-45a8-4fa7-b02f-ca090d6f5e89")
 	)
 	(junction
-		(at 77.47 170.688)
+		(at 59.182 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf6dbbc6-5518-4fc8-8845-b4ff12ef29a3")
@@ -3635,7 +3679,7 @@
 		(uuid "ebaf0221-d40f-4549-a6a3-54c154636c09")
 	)
 	(junction
-		(at 77.47 163.068)
+		(at 59.182 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc8c5d4-4e94-4f3f-a8b0-4b9937c0af9c")
@@ -3786,13 +3830,33 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 170.688) (xy 77.47 170.688)
+			(xy 183.896 75.184) (xy 183.896 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c7457c-aaa9-4957-a916-ef288005803e")
+	)
+	(wire
+		(pts
+			(xy 47.752 170.18) (xy 59.182 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23a375ca-f91b-44be-8502-b2ead28fc763")
+	)
+	(wire
+		(pts
+			(xy 183.896 35.814) (xy 183.896 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ac826-9093-41f5-92c7-78694a0684e1")
 	)
 	(wire
 		(pts
@@ -3896,6 +3960,16 @@
 	)
 	(wire
 		(pts
+			(xy 183.134 123.19) (xy 183.134 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53679ce3-fe1e-44f9-88ee-6054dfa5e5f2")
+	)
+	(wire
+		(pts
 			(xy 254.508 141.986) (xy 255.016 141.986)
 		)
 		(stroke
@@ -3933,6 +4007,16 @@
 			(type default)
 		)
 		(uuid "5cc70113-856e-42ee-a4f2-0c985aeda4a7")
+	)
+	(wire
+		(pts
+			(xy 183.896 26.67) (xy 183.896 28.194)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8fbce8-566b-4416-a531-578cdec298ce")
 	)
 	(wire
 		(pts
@@ -3993,6 +4077,16 @@
 			(type default)
 		)
 		(uuid "67d3ecce-a616-4fa7-8d58-40eb1bee6d62")
+	)
+	(wire
+		(pts
+			(xy 183.896 84.328) (xy 183.896 85.852)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6897621a-fe57-4784-b835-126a52de5cb4")
 	)
 	(wire
 		(pts
@@ -4186,13 +4280,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 163.068) (xy 77.47 163.068)
+			(xy 47.752 162.56) (xy 59.182 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b65d90f8-ceec-4550-bd22-d50b284c0b70")
+	)
+	(wire
+		(pts
+			(xy 191.262 26.67) (xy 183.896 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba571823-cb17-4ee1-a682-3dbb22ce6e05")
 	)
 	(wire
 		(pts
@@ -4273,6 +4377,16 @@
 			(type default)
 		)
 		(uuid "cfe1fbe7-c1ef-43a4-bbd7-6d4c270558d2")
+	)
+	(wire
+		(pts
+			(xy 190.5 123.19) (xy 183.134 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ba3ab4-a725-4ff6-84fa-94b6f395f3c4")
 	)
 	(wire
 		(pts
@@ -4416,6 +4530,16 @@
 	)
 	(wire
 		(pts
+			(xy 183.134 132.334) (xy 183.134 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabb77ac-c69c-4841-bb9a-751adf871259")
+	)
+	(wire
+		(pts
 			(xy 23.114 80.01) (xy 23.114 72.644)
 		)
 		(stroke
@@ -4423,6 +4547,16 @@
 			(type default)
 		)
 		(uuid "f2aed02d-72ac-4fcf-a3b2-30bf56a56612")
+	)
+	(wire
+		(pts
+			(xy 191.262 75.184) (xy 183.896 75.184)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65d0557-67f7-4ff0-8b4f-f6b9974d4042")
 	)
 	(wire
 		(pts
@@ -4478,6 +4612,28 @@
 			)
 		)
 	)
+	(global_label "ph_filt"
+		(shape input)
+		(at 181.356 37.338 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f4e9d80-3aab-4612-b9da-bbc3f958c42f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.3838 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CURRENT_3"
 		(shape output)
 		(at 233.934 137.668 90)
@@ -4500,6 +4656,28 @@
 			)
 		)
 	)
+	(global_label "ph_filt"
+		(shape input)
+		(at 181.356 85.852 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b7b3498-b5fc-41f0-a257-89b024aaa0a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.3838 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CURRENT_2"
 		(shape output)
 		(at 234.696 86.36 90)
@@ -4518,6 +4696,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ph_filt"
+		(shape input)
+		(at 180.594 133.858 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9524c2c0-9f5d-43b9-8024-a73b4d1878d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.6218 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4720,6 +4920,17 @@
 		)
 		(uuid "0e5bffb6-1f81-432f-82c1-2c4eeb339a2c")
 	)
+	(hierarchical_label "V3"
+		(shape input)
+		(at 190.5 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10145c84-6c95-4bc0-9d5f-62beb89e0b65")
+	)
 	(hierarchical_label "SENS_A-"
 		(shape input)
 		(at 269.24 53.34 270)
@@ -4885,6 +5096,17 @@
 		)
 		(uuid "7fb9c59b-d72f-4cec-acd9-56e4607885fd")
 	)
+	(hierarchical_label "V2"
+		(shape input)
+		(at 191.262 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "869a3bbd-0227-490e-913e-9e7c33b3fed6")
+	)
 	(hierarchical_label "ADC_T1"
 		(shape input)
 		(at 109.474 72.644 0)
@@ -4917,6 +5139,17 @@
 			(justify right)
 		)
 		(uuid "8da9d78e-22c4-4a1e-b7df-76be676b04a3")
+	)
+	(hierarchical_label "V1"
+		(shape input)
+		(at 191.262 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "920c271f-60ea-40e9-b387-33730da9f6ee")
 	)
 	(hierarchical_label "scl_bmi"
 		(shape output)
@@ -5181,6 +5414,72 @@
 			(justify left)
 		)
 		(uuid "ffb7d08e-cf01-44c9-ad7f-f9b660081cac")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 95.504 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001ef7fc-7454-42df-8000-839bdecec856")
+		(property "Reference" "#PWR0134"
+			(at 198.12 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9acaa585-a84f-44f1-899e-3f8bb3b71fb3")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -6245,6 +6544,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 183.896 52.578 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1de163ab-7e43-419d-85d4-4fce269f0490")
+		(property "Reference" "#PWR0124"
+			(at 183.896 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.896 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.896 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.896 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.896 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2187761b-7434-4b6c-8d3d-53719d1135a6")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 117.348 29.972 0)
 		(unit 1)
@@ -6786,17 +7151,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 66.04 170.688 180)
+		(lib_id "Device:C")
+		(at 183.896 80.518 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28cb9cb6-0cfd-4b83-b231-a918a79d87e8")
-		(property "Reference" "#PWR025"
-			(at 66.04 166.878 0)
+		(uuid "265408a8-c45a-4902-8bb3-56afbac225b0")
+		(property "Reference" "C46"
+			(at 187.198 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 187.198 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.9308 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,25 +7187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 66.04 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 170.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 170.688 0)
+		(property "Datasheet" "~"
+			(at 183.896 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7197,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 170.688 0)
+			(at 183.896 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e1655f8-00d8-423f-af86-b9ee3ee4aeb9")
+		)
+		(pin "2"
+			(uuid "f7bc12fb-b1c7-488e-8e73-b7a1987cae95")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSSA")
+		(at 47.752 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28cb9cb6-0cfd-4b83-b231-a918a79d87e8")
+		(property "Reference" "#PWR025"
+			(at 47.752 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSSA"
+			(at 47.752 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 47.752 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 47.752 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 47.752 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,6 +7623,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 191.516 96.012 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39eed5b1-c515-4c56-875e-528060e6236c")
+		(property "Reference" "#PWR0126"
+			(at 191.516 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 191.516 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.516 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.516 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.516 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eff65f0-8a72-4d8d-9e53-087b9b8e86fb")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_Switch:TS5A3166DCKR")
 		(at 232.156 43.688 270)
 		(unit 1)
@@ -7265,7 +7766,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 166.878 180)
+		(at 59.182 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7274,7 +7775,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cbc165e-2f59-437a-8d3b-d0a9d116fdb5")
 		(property "Reference" "C10"
-			(at 81.28 165.608 0)
+			(at 62.992 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7784,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 81.28 168.148 0)
+			(at 62.992 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7793,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.5048 163.068 0)
+			(at 58.2168 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 166.878 0)
+			(at 59.182 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 166.878 0)
+			(at 59.182 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,6 +8031,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 198.12 87.884 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4369bf70-4bbf-4ee7-8ec1-3998458d3a71")
+		(property "Reference" "#PWR0133"
+			(at 198.12 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 198.12 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98ad977-d5af-420c-9981-3599111f7966")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -7804,6 +8371,214 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Switch:TS5A3166DCKR")
+		(at 183.896 44.958 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51966c05-7ee3-4f11-abaf-b0c8f29bea2a")
+		(property "Reference" "U11"
+			(at 175.514 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC74VHC1GT66"
+			(at 170.434 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 180.086 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+			(at 186.436 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70"
+			(at 183.896 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "35bff711-46f6-4d16-97fb-ac27a90ce445")
+		)
+		(pin "5"
+			(uuid "70a5f0a8-6693-4c2f-958f-004a995ce728")
+		)
+		(pin "2"
+			(uuid "ef1002b7-334d-4da1-94b4-60e379f38cb9")
+		)
+		(pin "4"
+			(uuid "7ef860d5-5a18-4522-ab40-037a7cede909")
+		)
+		(pin "1"
+			(uuid "697282f2-8357-472f-b9ef-832f4ee9cc94")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 197.612 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5207d36f-d240-43ab-8f08-cf64de051d36")
+		(property "Reference" "#PWR0136"
+			(at 197.612 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 197.612 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.612 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 197.612 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.612 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71cfd929-4d01-46b8-a157-4ae3cae9a082")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.276 47.498 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534a7682-7cbe-4eef-a0a3-ab9776d9814f")
+		(property "Reference" "#PWR0122"
+			(at 176.276 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.276 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.276 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.276 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.276 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58581ad7-c319-4262-85b5-b6e97a62bbae")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 69.85 54.61 0)
 		(unit 1)
@@ -8072,6 +8847,152 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 196.85 43.434 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5528c389-0035-42aa-9f5b-60c245f9f77c")
+		(property "Reference" "C48"
+			(at 200.152 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 200.152 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 195.8848 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da226d9-7fe1-4e92-8864-91dc049e15ad")
+		)
+		(pin "2"
+			(uuid "e12f1f07-f6d7-416f-9671-df2da49325b9")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:TS5A3166DCKR")
+		(at 183.134 141.478 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56700ebc-37d5-40c1-b1d9-d8905fbbb192")
+		(property "Reference" "U13"
+			(at 174.752 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC74VHC1GT66"
+			(at 169.672 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 179.324 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+			(at 185.674 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70"
+			(at 183.134 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e24fe2b8-6871-4d48-9425-95e2164f62fc")
+		)
+		(pin "5"
+			(uuid "ecb53b1a-a341-4239-8da4-2c8c2e98edac")
+		)
+		(pin "2"
+			(uuid "02b7e466-1a38-4174-8d69-b2ea3e499c47")
+		)
+		(pin "4"
+			(uuid "09b71615-89cc-4947-8849-305106a94b51")
+		)
+		(pin "1"
+			(uuid "ff584435-1b08-40e4-96c2-b809b71a409d")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 239.776 75.184 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8135,6 +9056,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 183.134 128.524 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58e25540-c98c-41f5-b625-a9025cebd4f6")
+		(property "Reference" "C47"
+			(at 186.436 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 186.436 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.1688 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 183.134 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.134 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f66d25e-9a45-4b15-8b38-d42f1cdb3a00")
+		)
+		(pin "2"
+			(uuid "d1ddefa5-3cc6-4e06-8aa8-ed4416109c99")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -8632,7 +9623,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 66.04 163.068 0)
+		(at 47.752 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8641,7 +9632,7 @@
 		(fields_autoplaced yes)
 		(uuid "61ee4130-4d93-4ec4-8f18-142340f3368a")
 		(property "Reference" "#PWR023"
-			(at 66.04 166.878 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +9641,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 66.04 158.242 0)
+			(at 47.752 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +9649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 163.068 0)
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +9658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 163.068 0)
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +9667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 163.068 0)
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,6 +10369,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 190.754 144.018 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7903a127-d8f8-46b9-b644-5130519220a5")
+		(property "Reference" "#PWR0129"
+			(at 190.754 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 190.754 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.754 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.754 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.754 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9bcd6e7-a2f5-4b31-8b2c-c8346ec73cea")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254.762 31.496 0)
 		(unit 1)
@@ -9532,6 +10589,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 176.276 96.012 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd064e6-bbcc-4c70-8363-9f1351d0061b")
+		(property "Reference" "#PWR0125"
+			(at 176.276 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.276 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.276 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.276 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.276 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0f53a0-479c-45ed-89f9-501619cf909a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 128.778 37.592 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9591,6 +10714,138 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 196.85 39.624 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef53cf9-a7ed-46ad-9b97-46095cce6a6b")
+		(property "Reference" "#PWR0131"
+			(at 196.85 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 196.85 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfb7b0c5-4b7e-4375-b841-f3ef2822321a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 191.516 47.498 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd560cb-5fc1-4171-a392-b518eee49d7b")
+		(property "Reference" "#PWR0123"
+			(at 191.516 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 191.516 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.516 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.516 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.516 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec1e296f-8f16-4d0e-9edf-335a2d1eeeb8")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -9998,6 +11253,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 47.244 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c0f3c2-cff0-4c45-a1ad-9f64f4fe2407")
+		(property "Reference" "#PWR0132"
+			(at 196.85 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4dca71-6079-4c9c-85cb-de327923fd02")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -10417,7 +11738,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 77.47 163.068 0)
+		(at 59.182 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10426,7 +11747,7 @@
 		(fields_autoplaced yes)
 		(uuid "99c03238-1eda-4c0c-8ef3-c69b8927941b")
 		(property "Reference" "#PWR024"
-			(at 77.47 166.878 0)
+			(at 59.182 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +11756,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 77.47 157.988 0)
+			(at 59.182 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +11764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 163.068 0)
+			(at 59.182 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +11773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 163.068 0)
+			(at 59.182 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +11782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 163.068 0)
+			(at 59.182 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,6 +11797,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 197.612 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99d46a58-80c1-4f54-9b2d-aed7d8cb15c0")
+		(property "Reference" "#PWR0135"
+			(at 197.612 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 197.612 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.612 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 197.612 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.612 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e7ad217-ace4-4a36-ad4d-57685d8de52e")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -10555,6 +11942,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 183.896 32.004 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e02fe3d-bbf3-4d07-b1dd-4c079ba3a903")
+		(property "Reference" "C45"
+			(at 187.198 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 187.198 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.9308 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 183.896 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.896 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d003fc-e2e2-4da5-8bfe-9873f632b08a")
+		)
+		(pin "2"
+			(uuid "837f7625-c281-40c7-896e-596463784783")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -10896,7 +12353,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 166.878 180)
+		(at 47.752 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10905,7 +12362,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a38f06-d688-4085-9b21-793bc5914954")
 		(property "Reference" "C9"
-			(at 69.85 165.608 0)
+			(at 51.562 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +12371,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 69.85 168.148 0)
+			(at 51.562 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +12380,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 65.0748 163.068 0)
+			(at 46.7868 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,7 +12389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 166.878 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +12398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 166.878 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,6 +12482,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 197.612 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a93bd099-8404-4c1f-aa96-7f4d2e3f29a2")
+		(property "Reference" "C50"
+			(at 200.914 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 200.914 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 196.6468 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.612 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.612 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07f906c2-9cf0-4492-9c3f-c3c61ce3acc9")
+		)
+		(pin "2"
+			(uuid "01110a60-f477-444f-8dc9-f7cd4787fa4a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -11168,7 +12695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 170.688 0)
+		(at 59.182 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11177,7 +12704,7 @@
 		(fields_autoplaced yes)
 		(uuid "afba6368-2112-44f6-bc0a-cc804dc97766")
 		(property "Reference" "#PWR026"
-			(at 77.47 177.038 0)
+			(at 59.182 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +12713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 175.768 0)
+			(at 59.182 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +12721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 170.688 0)
+			(at 59.182 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +12730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 170.688 0)
+			(at 59.182 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +12739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 170.688 0)
+			(at 59.182 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,18 +13376,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7f7dd4e-2241-49f3-aaeb-aee7854a43b9")
 		(property "Reference" "U5"
-			(at 261.62 41.91 0)
+			(at 261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 261.62 49.53 0)
+		(property "Value" "INA240/241"
+			(at 261.874 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,6 +13448,82 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:TS5A3166DCKR")
+		(at 183.896 93.472 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca40ba5e-6910-4ed5-b66e-a15e08e1ce5a")
+		(property "Reference" "U12"
+			(at 175.514 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC74VHC1GT66"
+			(at 170.434 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 180.086 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+			(at 186.436 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70"
+			(at 183.896 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "967be022-e51c-4316-b493-6d662e399981")
+		)
+		(pin "5"
+			(uuid "eb165473-06f0-4587-927d-87ebad25d06e")
+		)
+		(pin "2"
+			(uuid "5c11f7fd-b018-4eea-96f8-497628de3b30")
+		)
+		(pin "4"
+			(uuid "65b3ad1a-448c-498d-8628-a6c548f53cbd")
+		)
+		(pin "1"
+			(uuid "92702f5e-106d-4b50-a5c6-ed859905e6b4")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -12065,6 +13667,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 198.12 91.694 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd7440ef-0af8-4216-8eda-10677e98fbd4")
+		(property "Reference" "C49"
+			(at 201.422 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 201.422 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 197.1548 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cceb4a6-e791-4cb4-89f7-164a2ee30ff3")
+		)
+		(pin "2"
+			(uuid "41ceb39e-df1e-47ee-8bbd-1add361caf17")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 243.078 50.038 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12193,6 +13865,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 183.134 149.098 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d23944e3-9030-4f95-8e9e-5cd991238516")
+		(property "Reference" "#PWR0130"
+			(at 183.134 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.134 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.134 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.134 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.134 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c09bb9e-f5a9-4fb8-b427-52454282fa12")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -12460,6 +14198,138 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.514 144.018 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de057d64-705f-4cf3-b9c7-c04592844b60")
+		(property "Reference" "#PWR0128"
+			(at 175.514 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.514 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.514 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.514 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.514 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a94c8d4-9505-4f73-a84c-4f8c683080f5")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 183.896 101.092 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de18d5a8-d81f-4558-a1d5-3987739ef7cb")
+		(property "Reference" "#PWR0127"
+			(at 183.896 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.896 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.896 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.896 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.896 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927eee02-4d88-4bc3-a001-fc41f6335c8a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
