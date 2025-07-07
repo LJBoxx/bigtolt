@@ -1150,8 +1150,12 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1166,7 +1170,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1251,8 +1255,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VCC"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1437,12 +1440,6 @@
 		(uuid "45e29e2f-e8e8-48bb-9df9-e654f3a53712")
 	)
 	(junction
-		(at 142.24 70.612)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "484fa9b8-c6ab-442e-827f-a2a0c46c311f")
-	)
-	(junction
 		(at 120.396 165.354)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1465,12 +1462,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef45499-8487-4abe-8318-3979814e23c9")
-	)
-	(junction
-		(at 225.298 72.136)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62812b00-eb2a-486a-94bf-59763b97469b")
 	)
 	(junction
 		(at 80.518 67.056)
@@ -1501,12 +1492,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a7bb00e-e980-40f7-aced-4a66236e5965")
-	)
-	(junction
-		(at 225.298 79.756)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b2e35f-9452-4fdb-914c-7bab48a548c8")
 	)
 	(junction
 		(at 30.988 28.448)
@@ -1585,12 +1570,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a56106f8-1c96-4738-bc3c-75556db79c47")
-	)
-	(junction
-		(at 142.24 78.232)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b027ed4c-f369-47bc-b4f1-6c4e503e369f")
 	)
 	(junction
 		(at 126.238 53.34)
@@ -4747,72 +4726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 120.396 150.114 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ec28284-5c89-4646-9995-34867667bdf1")
-		(property "Reference" "#PWR0142"
-			(at 120.396 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 120.396 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.396 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.396 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.396 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00ecf77c-f77d-4972-9564-cd95e9f3d3c1")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 213.106 67.056 270)
 		(unit 1)
@@ -5129,72 +5042,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 87.376 150.114 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "277b049d-2352-4326-84b5-dd05e9af2306")
-		(property "Reference" "#PWR0141"
-			(at 87.376 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 87.376 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.376 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.376 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.376 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2141f5a6-382c-4ee8-bf46-7e60eee62766")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -7665,7 +7512,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 74.422 0)
+		(at 142.24 74.422 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7674,25 +7521,23 @@
 		(fields_autoplaced yes)
 		(uuid "93ee2fa2-479f-4eab-8394-210cebd45bc8")
 		(property "Reference" "R20"
-			(at 144.78 73.1519 0)
+			(at 142.24 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0.3mr"
-			(at 144.78 75.6919 0)
+			(at 142.24 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 140.462 74.422 90)
+			(at 142.24 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +7750,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 225.298 75.946 0)
+		(at 225.298 75.946 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7914,25 +7759,23 @@
 		(fields_autoplaced yes)
 		(uuid "9ad3c256-a478-4015-ac52-a8b9441bb275")
 		(property "Reference" "R30"
-			(at 227.33 74.6759 0)
+			(at 225.298 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0.3mr"
-			(at 227.33 77.2159 0)
+			(at 225.298 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 75.946 90)
+			(at 225.298 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,6 +8250,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 56.896 150.114 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a59c5122-ce25-44ce-bd4e-b9a332b97c97")
+		(property "Reference" "#PWR0142"
+			(at 56.896 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 56.896 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.896 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.896 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 56.896 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b8292d-393e-4e7b-af07-a016e6536bc8")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 34.798 49.784 0)
 		(unit 1)
@@ -8728,72 +8637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 56.896 150.114 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b593607c-1e7d-4f90-acca-99c1aa39a9a2")
-		(property "Reference" "#PWR0140"
-			(at 56.896 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 56.896 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.896 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 56.896 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 56.896 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8542294f-af0d-4119-9cd0-8d3c1dcd2503")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.798 34.798 90)
 		(unit 1)
@@ -8940,6 +8783,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 120.396 150.114 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0fdaa3-baf8-4b8b-9fc0-040e88183307")
+		(property "Reference" "#PWR0140"
+			(at 120.396 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 120.396 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.396 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.396 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 120.396 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0525d5c2-859f-4303-8ec7-0e29c681b9a9")
+		)
+		(instances
+			(project ""
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -9754,6 +9663,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 87.376 150.114 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d0b14d-3f65-49ae-acb5-78366513e71b")
+		(property "Reference" "#PWR0141"
+			(at 87.376 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 87.376 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.376 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.376 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 87.376 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19bc663-652b-4c5c-ba8a-7789c472a5a6")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)

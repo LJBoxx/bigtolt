@@ -2936,6 +2936,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VDDA_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3631,12 +3756,6 @@
 		(uuid "36fc7331-e523-4b22-ae5d-14fd6dffd9f0")
 	)
 	(junction
-		(at 47.752 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46869d3d-d978-450a-a5ad-fa360346e375")
-	)
-	(junction
 		(at 32.766 80.518)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3677,12 +3796,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebaf0221-d40f-4549-a6a3-54c154636c09")
-	)
-	(junction
-		(at 59.182 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efc8c5d4-4e94-4f3f-a8b0-4b9937c0af9c")
 	)
 	(junction
 		(at 254.762 98.552)
@@ -4280,16 +4393,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.752 162.56) (xy 59.182 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65d90f8-ceec-4550-bd22-d50b284c0b70")
-	)
-	(wire
-		(pts
 			(xy 191.262 26.67) (xy 183.896 26.67)
 		)
 		(stroke
@@ -4567,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "f9f5c20d-b5c2-48a7-932a-2e42fa09b148")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.578) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd96a783-93d3-4c66-a614-9e8f6f2ffab4")
 	)
 	(global_label "CURRENT_1"
 		(shape input)
@@ -5608,72 +5721,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 249.936 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d0f5b1b-f2b6-434e-90f8-19676b51c6fd")
-		(property "Reference" "#PWR072"
-			(at 249.936 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 249.936 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 249.936 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 249.936 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 249.936 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cb8d4bd-a94c-468e-8308-8300f88f57a9")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6877,6 +6924,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 52.578 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23905fd7-052f-4764-941a-8a02fdd414f7")
+		(property "Reference" "#PWR0160"
+			(at 69.85 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 69.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77683469-2480-4071-825f-ff981b4da29b")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_Switch:TS5A3166DCKR")
 		(at 234.696 93.98 270)
 		(unit 1)
@@ -7079,72 +7192,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 251.714 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "262b1c72-d54d-4496-8987-06972454dfea")
-		(property "Reference" "#PWR097"
-			(at 251.714 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 251.714 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.714 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.714 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.714 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cda26bf1-c39a-4e85-a01c-571d1247733a")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7819,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3cbc165e-2f59-437a-8d3b-d0a9d116fdb5")
 		(property "Reference" "C10"
 			(at 62.992 165.1 0)
@@ -8239,6 +8285,73 @@
 		)
 	)
 	(symbol
+		(lib_name "VDDA_1")
+		(lib_id "power:VDDA")
+		(at 249.936 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a4a0250-73ad-4960-b952-98ad05c0e89c")
+		(property "Reference" "#PWR0149"
+			(at 249.936 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 249.936 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 249.936 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.936 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 249.936 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e69ee7c8-ec81-46cc-aaea-845f462dfb89")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 241.554 147.828 0)
 		(unit 1)
@@ -8305,7 +8418,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_name "VDDA_1")
+		(lib_id "power:VDDA")
 		(at 252.476 98.552 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8313,8 +8427,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fadb76d-e29a-4173-83e9-1dd6c5fe6a88")
-		(property "Reference" "#PWR085"
+		(uuid "514dcc00-b422-4e3a-b4ae-2c40eaccaafa")
+		(property "Reference" "#PWR0148"
 			(at 252.476 102.362 0)
 			(effects
 				(font
@@ -8323,8 +8437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 252.476 93.98 0)
+		(property "Value" "VDDA"
+			(at 252.476 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
 			(at 252.476 98.552 0)
 			(effects
 				(font
@@ -8359,12 +8473,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c1fd725-f6f2-4b82-951e-0b71a4861bad")
+			(uuid "55c5f896-bdd9-45cd-a97c-e26255c128b8")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR085")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -8573,71 +8687,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 69.85 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53a6bc5c-5e96-49cd-8533-c0620ff2744a")
-		(property "Reference" "#PWR0104"
-			(at 69.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efe2c183-90d1-49b3-830d-e49a472a4abc")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -13931,6 +13980,73 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VDDA_1")
+		(lib_id "power:VDDA")
+		(at 251.714 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c301c8-07d9-4bff-baf8-40b8a38d6e00")
+		(property "Reference" "#PWR0147"
+			(at 251.714 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 251.714 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.714 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.714 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 251.714 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51b8b70-97e2-4234-8c25-e6feec623e3d")
+		)
+		(instances
+			(project ""
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)

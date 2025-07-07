@@ -2242,6 +2242,48 @@
 		)
 	)
 	(sheet
+		(at 39.624 93.98)
+		(size 52.07 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ce7e076-9400-4950-85dd-c0cbbbb909ec")
+		(property "Sheetname" "converters"
+			(at 39.624 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "converters.kicad_sch"
+			(at 39.624 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 175.006 20.32)
 		(size 26.67 113.538)
 		(exclude_from_sim no)

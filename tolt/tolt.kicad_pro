@@ -612,6 +612,10 @@
     [
       "e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6",
       "powerstage"
+    ],
+    [
+      "8ce7e076-9400-4950-85dd-c0cbbbb909ec",
+      "converters"
     ]
   ],
   "text_variables": {}
