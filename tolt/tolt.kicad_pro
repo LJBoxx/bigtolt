@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -616,6 +617,10 @@
     [
       "8ce7e076-9400-4950-85dd-c0cbbbb909ec",
       "converters"
+    ],
+    [
+      "5e8c7753-d04d-42ed-8285-d224e0d20653",
+      "aux logic"
     ]
   ],
   "text_variables": {}
