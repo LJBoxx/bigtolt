@@ -602,6 +602,10 @@
       "Root"
     ],
     [
+      "8ce7e076-9400-4950-85dd-c0cbbbb909ec",
+      "converters"
+    ],
+    [
       "410a2c08-a3a0-4066-ae14-a5c75baf28bb",
       "logic"
     ],
@@ -614,8 +618,8 @@
       "powerstage"
     ],
     [
-      "8ce7e076-9400-4950-85dd-c0cbbbb909ec",
-      "converters"
+      "6b2e3f2f-f32b-4ade-9f1c-8a2666774cc1",
+      "auxl"
     ]
   ],
   "text_variables": {}

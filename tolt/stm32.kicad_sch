@@ -5056,7 +5056,7 @@
 		(uuid "1704f203-7444-47a4-a7ab-8e3bae2a5baa")
 	)
 	(hierarchical_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 109.474 98.044 0)
 		(effects
 			(font

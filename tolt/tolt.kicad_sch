@@ -2236,7 +2236,49 @@
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
-					(page "2")
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 165.1)
+		(size 13.97 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b2e3f2f-f32b-4ade-9f1c-8a2666774cc1")
+		(property "Sheetname" "auxl"
+			(at 58.42 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "auxl.kicad_sch"
+			(at 58.42 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
+					(page "6")
 				)
 			)
 		)
@@ -2278,7 +2320,7 @@
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
@@ -2549,7 +2591,7 @@
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -2770,7 +2812,7 @@
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
