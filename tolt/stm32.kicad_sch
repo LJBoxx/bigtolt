@@ -3685,7 +3685,7 @@
 	)
 	(text "place close to vdda "
 		(exclude_from_sim no)
-		(at 65.786 171.704 0)
+		(at 54.102 180.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3714,12 +3714,6 @@
 		(uuid "b40df93e-90bb-4d6a-abfb-9c06b81bd6a8")
 	)
 	(junction
-		(at 35.814 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ad02a09-7d21-4aa2-893a-86be8fec8732")
-	)
-	(junction
 		(at 245.618 90.678)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3732,10 +3726,10 @@
 		(uuid "1ee13449-10e9-4a6a-b9d7-b8d937921a52")
 	)
 	(junction
-		(at 35.814 162.56)
+		(at 47.752 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26739b2c-0bcf-4a8a-9092-956b949ef514")
+		(uuid "23c50a30-2ca3-4063-bb8e-44a4b8a8eef5")
 	)
 	(junction
 		(at 274.066 152.4)
@@ -3756,12 +3750,6 @@
 		(uuid "33176f05-9661-43ad-9c72-c65dabcaa537")
 	)
 	(junction
-		(at 50.292 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3537a071-2a65-4e80-bbdc-8b4b80e12a36")
-	)
-	(junction
 		(at 69.85 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3772,12 +3760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a2f120d-fe4a-41d9-90db-1679c1582e6b")
-	)
-	(junction
-		(at 50.292 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7563c489-137d-4afc-8906-8eafd9cf16f8")
 	)
 	(junction
 		(at 32.766 72.644)
@@ -3796,6 +3778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dff05dc-45a8-4fa7-b02f-ca090d6f5e89")
+	)
+	(junction
+		(at 59.182 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf6dbbc6-5518-4fc8-8845-b4ff12ef29a3")
 	)
 	(junction
 		(at 254 149.86)
@@ -3965,6 +3953,16 @@
 	)
 	(wire
 		(pts
+			(xy 47.752 170.18) (xy 59.182 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a375ca-f91b-44be-8502-b2ead28fc763")
+	)
+	(wire
+		(pts
 			(xy 183.896 35.814) (xy 183.896 37.338)
 		)
 		(stroke
@@ -4042,16 +4040,6 @@
 			(type default)
 		)
 		(uuid "3b5a7c3a-9182-421c-9b5b-d0a107a58431")
-	)
-	(wire
-		(pts
-			(xy 35.814 162.56) (xy 50.292 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f6904fd-48c5-4a0c-a2eb-f79bac063a03")
 	)
 	(wire
 		(pts
@@ -4295,16 +4283,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.814 162.052) (xy 35.814 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac72dad-bbb7-4cf2-9eb1-567559495047")
-	)
-	(wire
-		(pts
 			(xy 255.27 90.678) (xy 255.778 90.678)
 		)
 		(stroke
@@ -4412,16 +4390,6 @@
 			(type default)
 		)
 		(uuid "b391fafa-0e80-44b9-b8cb-7dae266c4300")
-	)
-	(wire
-		(pts
-			(xy 35.814 170.18) (xy 50.292 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b9396b-388e-4456-ac40-e7bb4406a2ab")
 	)
 	(wire
 		(pts
@@ -5297,7 +5265,7 @@
 		(uuid "920c271f-60ea-40e9-b387-33730da9f6ee")
 	)
 	(hierarchical_label "scl_bmi"
-		(shape bidirectional)
+		(shape output)
 		(at 109.474 138.684 0)
 		(effects
 			(font
@@ -5461,17 +5429,6 @@
 		)
 		(uuid "e13bed31-3946-4985-a2cb-9f3fe7bd2db2")
 	)
-	(hierarchical_label "rst"
-		(shape input)
-		(at 69.85 65.024 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e159a388-23e1-4478-8bc0-c48a3049e18c")
-	)
 	(hierarchical_label "USBD+"
 		(shape bidirectional)
 		(at 109.474 95.504 0)
@@ -5572,6 +5529,72 @@
 		(uuid "ffb7d08e-cf01-44c9-ad7f-f9b660081cac")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 198.12 95.504 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001ef7fc-7454-42df-8000-839bdecec856")
+		(property "Reference" "#PWR0134"
+			(at 198.12 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9acaa585-a84f-44f1-899e-3f8bb3b71fb3")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 56.896 29.972 0)
 		(unit 1)
@@ -5632,72 +5655,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 196.85 47.244 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "086b5f50-f323-4213-994a-ba16c44c085b")
-		(property "Reference" "#PWR0132"
-			(at 196.85 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 196.85 51.562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 196.85 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2468df5d-eaa2-44cb-8347-b7b3055844bb")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -5840,6 +5797,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 277.876 54.102 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "100cf88f-9c28-4b75-9456-510726dad1e3")
+		(property "Reference" "#PWR071"
+			(at 277.876 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 277.876 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.876 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 277.876 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.876 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78832ac0-9aaa-45ac-808e-5a9cd1a0a09d")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 248.92 40.386 270)
 		(unit 1)
@@ -5968,6 +5991,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.156 58.928 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "187e7814-4c2c-4529-9282-923745e16083")
+		(property "Reference" "#PWR073"
+			(at 232.156 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.156 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.156 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.156 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.156 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7e41582-18d1-4aa8-8770-a0d541033a52")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6502,17 +6591,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 279.654 155.702 180)
+		(lib_id "power:GND")
+		(at 183.896 52.578 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1df3d52d-b4e1-49cc-9e34-f86c405d27f4")
-		(property "Reference" "#PWR0136"
-			(at 279.654 151.892 0)
+		(uuid "1de163ab-7e43-419d-85d4-4fce269f0490")
+		(property "Reference" "#PWR0124"
+			(at 183.896 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,8 +6609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 279.654 160.02 0)
+		(property "Value" "GND"
+			(at 183.896 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +6618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.654 155.702 0)
+			(at 183.896 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.654 155.702 0)
+			(at 183.896 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,8 +6635,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 279.654 155.702 0)
+		(property "Description" ""
+			(at 183.896 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,12 +6645,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d412e94-f4d3-4f66-a596-e13a67793f7a")
+			(uuid "2187761b-7434-4b6c-8d3d-53719d1135a6")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0136")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -7180,7 +7269,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 35.814 170.18 180)
+		(at 47.752 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7189,7 +7278,7 @@
 		(fields_autoplaced yes)
 		(uuid "28cb9cb6-0cfd-4b83-b231-a918a79d87e8")
 		(property "Reference" "#PWR025"
-			(at 35.814 166.37 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7287,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 35.814 175.26 0)
+			(at 47.752 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.814 170.18 0)
+			(at 47.752 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.814 170.18 0)
+			(at 47.752 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.814 170.18 0)
+			(at 47.752 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,17 +7604,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 197.612 143.51 180)
+		(lib_id "power:GND")
+		(at 226.314 147.828 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "357c3b45-9036-4196-b6ae-fb2e29dca0fb")
-		(property "Reference" "#PWR0128"
-			(at 197.612 139.7 0)
+		(uuid "38be3a17-eba8-4c46-953e-bf946f605ce5")
+		(property "Reference" "#PWR095"
+			(at 226.314 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,8 +7622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 197.612 147.828 0)
+		(property "Value" "GND"
+			(at 226.314 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 197.612 143.51 0)
+			(at 226.314 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +7640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 197.612 143.51 0)
+			(at 226.314 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,8 +7648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 197.612 143.51 0)
+		(property "Description" ""
+			(at 226.314 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,12 +7658,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "97306362-f514-454a-b739-bd20aad69645")
+			(uuid "dc7422d7-8f84-4f2b-a5ed-8ce27f6acce2")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0128")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7641,72 +7730,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 183.896 101.092 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a6e0cec-4d83-49f5-86ad-d457918156a0")
-		(property "Reference" "#PWR087"
-			(at 183.896 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 183.896 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.896 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 183.896 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 183.896 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d0cbcc4-5ede-4ada-b87b-23f7b7634e96")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7790,7 +7813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.292 166.37 180)
+		(at 59.182 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7798,7 +7821,7 @@
 		(dnp no)
 		(uuid "3cbc165e-2f59-437a-8d3b-d0a9d116fdb5")
 		(property "Reference" "C10"
-			(at 54.102 165.1 0)
+			(at 62.992 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7830,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 54.102 167.64 0)
+			(at 62.992 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7839,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 49.3268 162.56 0)
+			(at 58.2168 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.292 166.37 0)
+			(at 59.182 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.292 166.37 0)
+			(at 59.182 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,72 +8285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 176.276 96.012 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47814d30-632b-4668-bc2c-99b0f70597fa")
-		(property "Reference" "#PWR086"
-			(at 176.276 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 176.276 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.276 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.276 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 176.276 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eadd9765-a2f3-467b-87f9-b7ccd87fce31")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "VDDA_1")
 		(lib_id "power:VDDA")
 		(at 249.936 48.26 0)
@@ -8598,6 +8555,138 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 197.612 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5207d36f-d240-43ab-8f08-cf64de051d36")
+		(property "Reference" "#PWR0136"
+			(at 197.612 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 197.612 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.612 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 197.612 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.612 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71cfd929-4d01-46b8-a157-4ae3cae9a082")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.276 47.498 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534a7682-7cbe-4eef-a0a3-ab9776d9814f")
+		(property "Reference" "#PWR0122"
+			(at 176.276 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.276 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.276 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.276 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.276 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58581ad7-c319-4262-85b5-b6e97a62bbae")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -9161,17 +9250,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 234.696 109.22 180)
+		(lib_id "power:GND")
+		(at 243.078 53.848 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5c40cfa4-6c8b-4fbb-9a73-af16d8d428cf")
-		(property "Reference" "#PWR0127"
-			(at 234.696 105.41 0)
+		(uuid "5e514b24-8ff1-4b1e-9ec1-22f09167f2b7")
+		(property "Reference" "#PWR074"
+			(at 243.078 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,8 +9268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 234.696 113.538 0)
+		(property "Value" "GND"
+			(at 243.078 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.696 109.22 0)
+			(at 243.078 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.696 109.22 0)
+			(at 243.078 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,8 +9294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 234.696 109.22 0)
+		(property "Description" ""
+			(at 243.078 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,12 +9304,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2dbcccdd-9637-46b4-bf88-7dfcbfd82025")
+			(uuid "039ed46d-66b6-47aa-987f-21550051450e")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0127")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9672,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 35.814 162.052 0)
+		(at 47.752 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9592,7 +9681,7 @@
 		(fields_autoplaced yes)
 		(uuid "61ee4130-4d93-4ec4-8f18-142340f3368a")
 		(property "Reference" "#PWR023"
-			(at 35.814 165.862 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,7 +9690,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 35.814 157.226 0)
+			(at 47.752 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.814 162.052 0)
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.814 162.052 0)
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.814 162.052 0)
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,6 +10065,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.934 160.528 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f4b4bd6-f892-4dc2-9c11-7f4954c3c629")
+		(property "Reference" "#PWR0100"
+			(at 233.934 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.934 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.934 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.934 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.934 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07853d31-3608-49e4-b68c-163914400575")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -10483,6 +10638,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 176.276 96.012 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd064e6-bbcc-4c70-8363-9f1351d0061b")
+		(property "Reference" "#PWR0125"
+			(at 176.276 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.276 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.276 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.276 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.276 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0f53a0-479c-45ed-89f9-501619cf909a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 128.778 37.592 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10746,72 +10967,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 183.134 149.098 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84068f24-b49e-4f5c-9d63-aea4fcfd7341")
-		(property "Reference" "#PWR0100"
-			(at 183.134 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 183.134 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.134 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 183.134 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 183.134 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "742a92f7-644c-436f-a8b5-1ebe21c2f0d0")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 23.114 83.82 0)
 		(mirror y)
@@ -10946,72 +11101,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 277.876 54.102 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cfd0f93-236e-4500-ae85-5bd42898f7be")
-		(property "Reference" "#PWR0122"
-			(at 277.876 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 277.876 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 277.876 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 277.876 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 277.876 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07b01c43-9f17-40d9-b1f1-6f1ea82d4d68")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -11213,6 +11302,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 47.244 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c0f3c2-cff0-4c45-a1ad-9f64f4fe2407")
+		(property "Reference" "#PWR0132"
+			(at 196.85 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4dca71-6079-4c9c-85cb-de327923fd02")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -11434,6 +11589,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 245.618 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98766446-dc08-4d0a-8aeb-f7f800ea8044")
+		(property "Reference" "#PWR086"
+			(at 245.618 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.618 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.618 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.618 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.618 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72640930-8a34-4e87-8863-25170be42a4a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 37.846 76.454 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11566,7 +11787,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 50.292 162.56 0)
+		(at 59.182 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11575,7 +11796,7 @@
 		(fields_autoplaced yes)
 		(uuid "99c03238-1eda-4c0c-8ef3-c69b8927941b")
 		(property "Reference" "#PWR024"
-			(at 50.292 166.37 0)
+			(at 59.182 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +11805,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 50.292 157.48 0)
+			(at 59.182 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11592,7 +11813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.292 162.56 0)
+			(at 59.182 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +11822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.292 162.56 0)
+			(at 59.182 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11610,7 +11831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.292 162.56 0)
+			(at 59.182 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12402,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.814 166.37 180)
+		(at 47.752 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12190,7 +12411,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a38f06-d688-4085-9b21-793bc5914954")
 		(property "Reference" "C9"
-			(at 39.624 165.1 0)
+			(at 51.562 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12420,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 39.624 167.64 0)
+			(at 51.562 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12429,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 34.8488 162.56 0)
+			(at 46.7868 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.814 166.37 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.814 166.37 0)
+			(at 47.752 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12452,204 +12673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 280.416 104.394 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab05aad0-287c-45ae-8d8e-b50b8e756776")
-		(property "Reference" "#PWR0125"
-			(at 280.416 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 280.416 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.416 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.416 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 280.416 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85c42a3a-9d8f-4a94-b96d-5d6bc958b8a2")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 243.078 53.848 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "accf941c-a330-47cd-87c8-cc83b1813269")
-		(property "Reference" "#PWR074"
-			(at 243.078 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 243.078 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.078 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.078 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 243.078 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5601d907-debc-481d-819e-4961879a8993")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 175.514 144.018 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad2219fc-fc55-4bfd-a374-d60e9c5e5bf5")
-		(property "Reference" "#PWR0130"
-			(at 175.514 140.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 175.514 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.514 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.514 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 175.514 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00b42f29-af9b-48b1-bc5a-06d4b56bf78c")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.036 33.782 180)
 		(unit 1)
@@ -12721,7 +12744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.292 170.18 0)
+		(at 59.182 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12730,7 +12753,7 @@
 		(fields_autoplaced yes)
 		(uuid "afba6368-2112-44f6-bc0a-cc804dc97766")
 		(property "Reference" "#PWR026"
-			(at 50.292 176.53 0)
+			(at 59.182 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +12762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.292 175.26 0)
+			(at 59.182 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.292 170.18 0)
+			(at 59.182 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.292 170.18 0)
+			(at 59.182 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.292 170.18 0)
+			(at 59.182 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,6 +13146,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.696 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b905c072-9fa9-4fb9-ac78-601cefa09fe7")
+		(property "Reference" "#PWR088"
+			(at 234.696 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.696 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.696 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.696 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.696 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4833df9-48a2-49fc-b7d8-5c74515382bf")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.778 33.782 180)
 		(unit 1)
@@ -13187,72 +13276,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 244.856 155.448 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c37a4c78-9669-4ed1-a658-5948119ea5a4")
-		(property "Reference" "#PWR099"
-			(at 244.856 151.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 244.856 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.856 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 244.856 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 244.856 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06dc6ac4-5c1e-4bb1-9bc7-b0acf647f122")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -13762,72 +13785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 198.12 95.504 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce70e572-55cd-4c38-9543-76c9028a0511")
-		(property "Reference" "#PWR0134"
-			(at 198.12 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 198.12 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 198.12 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2deae921-10d9-48b4-b5c2-e9ee9935394b")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 243.078 50.038 0)
 		(unit 1)
@@ -13957,6 +13914,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 183.134 149.098 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d23944e3-9030-4f95-8e9e-5cd991238516")
+		(property "Reference" "#PWR0130"
+			(at 183.134 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.134 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.134 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.134 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.134 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c09bb9e-f5a9-4fb8-b427-52454282fa12")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -14297,17 +14320,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 232.156 58.928 180)
+		(lib_id "power:GND")
+		(at 175.514 144.018 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd47e2ab-6670-4771-a337-0dbdea0bcc8f")
-		(property "Reference" "#PWR0124"
-			(at 232.156 55.118 0)
+		(uuid "de057d64-705f-4cf3-b9c7-c04592844b60")
+		(property "Reference" "#PWR0128"
+			(at 175.514 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,8 +14338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 232.156 63.246 0)
+		(property "Value" "GND"
+			(at 175.514 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.156 58.928 0)
+			(at 175.514 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,7 +14356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.156 58.928 0)
+			(at 175.514 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,8 +14364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 232.156 58.928 0)
+		(property "Description" ""
+			(at 175.514 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14351,29 +14374,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "28f79e1a-e4ab-4043-8586-c09f8a9138b5")
+			(uuid "3a94c8d4-9505-4f73-a84c-4f8c683080f5")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0124")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 183.896 52.578 180)
+		(lib_id "power:GND")
+		(at 183.896 101.092 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd584a24-eb7b-49e3-aeca-d085a622a1d3")
-		(property "Reference" "#PWR073"
-			(at 183.896 48.768 0)
+		(uuid "de18d5a8-d81f-4558-a1d5-3987739ef7cb")
+		(property "Reference" "#PWR0127"
+			(at 183.896 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,8 +14404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 183.896 56.896 0)
+		(property "Value" "GND"
+			(at 183.896 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 183.896 52.578 0)
+			(at 183.896 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14399,7 +14422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 183.896 52.578 0)
+			(at 183.896 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,8 +14430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 183.896 52.578 0)
+		(property "Description" ""
+			(at 183.896 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14417,12 +14440,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "411c5582-b1cf-4ffd-a982-bd6cbef594b2")
+			(uuid "927eee02-4d88-4bc3-a001-fc41f6335c8a")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR073")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -14489,6 +14512,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 244.856 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defd9794-4573-46a3-8147-fcf3a31a30f3")
+		(property "Reference" "#PWR098"
+			(at 244.856 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 244.856 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.856 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 244.856 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 244.856 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d03600e-a5ef-42bd-878f-d334839dddf4")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -14697,138 +14786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 176.276 47.498 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6fee315-9413-4dc2-9422-a91bf27a4b23")
-		(property "Reference" "#PWR071"
-			(at 176.276 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 176.276 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.276 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.276 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 176.276 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "109ffe2f-0e5d-4d4e-a785-2a0ad16cbd94")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 233.934 160.528 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7f91dc6-85d2-4409-aeeb-91ddf84cb945")
-		(property "Reference" "#PWR098"
-			(at 233.934 156.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 233.934 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.934 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.934 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 233.934 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfde1214-9f24-425d-bfd0-a346b15a2b5f")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.326 33.782 180)
 		(unit 1)
@@ -14899,17 +14856,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 245.618 104.14 180)
+		(lib_id "power:GND")
+		(at 280.416 104.394 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef7c95e4-8e7b-44b9-a1e2-37fcb0a1d221")
-		(property "Reference" "#PWR088"
-			(at 245.618 100.33 0)
+		(uuid "f0fa8b69-58ea-49dd-95c0-06850155eacb")
+		(property "Reference" "#PWR087"
+			(at 280.416 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14917,8 +14874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
-			(at 245.618 108.458 0)
+		(property "Value" "GND"
+			(at 280.416 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +14883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.618 104.14 0)
+			(at 280.416 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14935,7 +14892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.618 104.14 0)
+			(at 280.416 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14943,8 +14900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 245.618 104.14 0)
+		(property "Description" ""
+			(at 280.416 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,12 +14910,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bae9203e-913f-40e2-9f94-338edf0b3a78")
+			(uuid "8c0f2ae1-19ed-4750-b090-cc6484b96877")
 		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR088")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -15027,6 +14984,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.654 155.702 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f240b5de-5dfb-414b-8cd5-28874db12156")
+		(property "Reference" "#PWR099"
+			(at 279.654 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.654 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.654 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.654 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.654 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb183bd-3e03-488a-a4c5-7d80bdd85f83")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
