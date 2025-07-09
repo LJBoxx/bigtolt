@@ -616,6 +616,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.776 153.924) (xy 112.776 157.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d16d01c-0707-4bee-9fa0-76de3f5ca74d")
+	)
+	(wire
+		(pts
 			(xy 201.676 34.036) (xy 228.346 34.036)
 		)
 		(stroke
@@ -726,6 +736,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.778 153.924) (xy 128.778 157.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b731f518-9fad-4571-8d06-41a508291190")
+	)
+	(wire
+		(pts
 			(xy 149.352 38.608) (xy 175.006 38.608)
 		)
 		(stroke
@@ -783,6 +803,16 @@
 			(type default)
 		)
 		(uuid "c692c3e5-6a01-455f-8ebd-1fb1bf64983c")
+	)
+	(wire
+		(pts
+			(xy 115.062 153.924) (xy 115.062 157.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ec9354-84c6-42c4-b507-8851d25582eb")
 	)
 	(wire
 		(pts
@@ -873,6 +903,16 @@
 			(type default)
 		)
 		(uuid "f3d68a80-e0fc-4fe8-8e88-c3ef2d7cb21d")
+	)
+	(wire
+		(pts
+			(xy 126.492 153.924) (xy 126.492 157.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91b7a71-e467-4b3e-a885-4dbb640639eb")
 	)
 	(wire
 		(pts
@@ -2152,6 +2192,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PC10_UART_TX" input
+			(at 115.062 157.988 90)
+			(uuid "6f35ba43-821b-4c97-9a6a-954d426e95cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC11_UART_RX" output
+			(at 112.776 157.988 90)
+			(uuid "1cbdb1e4-d082-4d12-b7c9-158359633cdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "scl_bmi" bidirectional
+			(at 128.778 157.988 90)
+			(uuid "4813f14e-8073-48f2-848a-673ac2c2e58e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sda_bmi" bidirectional
+			(at 126.492 157.988 90)
+			(uuid "d0b2c74e-0791-44b3-bfcd-98e6ad5ceb18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
