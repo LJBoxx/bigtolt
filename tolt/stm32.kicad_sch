@@ -14056,7 +14056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x`"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 41.656 54.61 0)
 			(effects
 				(font

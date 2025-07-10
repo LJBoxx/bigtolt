@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.0832 131.572 0)
 			(effects
 				(font
@@ -3939,7 +3939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 84.836 0)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.6372 131.572 0)
 			(effects
 				(font
@@ -4145,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.2612 131.572 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 176.784 0)
 			(effects
 				(font
@@ -4355,7 +4355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.7532 84.836 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.5332 176.784 0)
 			(effects
 				(font
@@ -4901,7 +4901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 49.2252 176.784 0)
 			(effects
 				(font
@@ -5039,7 +5039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.9792 176.784 0)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.1992 84.836 0)
 			(effects
 				(font
@@ -5939,7 +5939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.1292 84.836 0)
 			(effects
 				(font
@@ -6009,7 +6009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 149.098 172.974 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.1012 176.784 0)
 			(effects
 				(font
@@ -6638,7 +6638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.7072 131.572 0)
 			(effects
 				(font
@@ -6906,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.9332 176.784 0)
 			(effects
 				(font
