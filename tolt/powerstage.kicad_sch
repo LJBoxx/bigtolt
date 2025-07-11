@@ -144,6 +144,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -1275,8 +1436,8 @@
 		)
 	)
 	(rectangle
-		(start 41.656 150.368)
-		(end 137.668 183.896)
+		(start 184.404 121.666)
+		(end 280.416 155.194)
 		(stroke
 			(width 0)
 			(type default)
@@ -1298,7 +1459,7 @@
 	)
 	(text "temp sensing\n"
 		(exclude_from_sim no)
-		(at 42.672 182.626 0)
+		(at 185.42 153.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1332,7 +1493,7 @@
 		(uuid "0a1fd95f-7923-4142-84b6-c3915c767103")
 	)
 	(junction
-		(at 56.642 166.116)
+		(at 199.39 137.414)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10b5468d-010a-48a8-9c17-8405698edb0f")
@@ -1464,7 +1625,7 @@
 		(uuid "459aa09f-76ea-436f-bff6-946e24230b4b")
 	)
 	(junction
-		(at 87.122 166.116)
+		(at 229.87 137.414)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45e29e2f-e8e8-48bb-9df9-e654f3a53712")
@@ -1476,7 +1637,7 @@
 		(uuid "4af5c207-6c2b-420d-908a-3974288a27fd")
 	)
 	(junction
-		(at 120.142 173.736)
+		(at 262.89 145.034)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53d57d88-c896-40fa-aab4-bb5a9a85ae97")
@@ -1740,7 +1901,7 @@
 		(uuid "d4fa0a38-a1aa-48a9-bd82-6e91341446d5")
 	)
 	(junction
-		(at 120.142 166.116)
+		(at 262.89 137.414)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3c403da-047a-4e48-a650-913854321f2a")
@@ -1794,7 +1955,7 @@
 		(uuid "f3ff9763-99de-4a64-bf85-6a1368034bfa")
 	)
 	(junction
-		(at 87.122 173.736)
+		(at 229.87 145.034)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f62b8a9d-f3be-4ec1-b545-2e67a1fc2e3e")
@@ -1842,7 +2003,7 @@
 		(uuid "fe2549d0-549c-44c0-b56d-addc6571afba")
 	)
 	(junction
-		(at 56.642 173.736)
+		(at 199.39 145.034)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe9a0150-382a-4ed8-8a82-45dc9b6f8f8c")
@@ -2729,7 +2890,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.982 173.736) (xy 120.142 173.736)
+			(xy 252.73 145.034) (xy 262.89 145.034)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.482 173.736) (xy 56.642 173.736)
+			(xy 189.23 145.034) (xy 199.39 145.034)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.962 166.116) (xy 87.122 166.116)
+			(xy 219.71 137.414) (xy 229.87 137.414)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.642 166.116) (xy 64.262 166.116)
+			(xy 199.39 137.414) (xy 207.01 137.414)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.142 166.116) (xy 127.762 166.116)
+			(xy 262.89 137.414) (xy 270.51 137.414)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3700,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.982 166.116) (xy 120.142 166.116)
+			(xy 252.73 137.414) (xy 262.89 137.414)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.482 166.116) (xy 56.642 166.116)
+			(xy 189.23 137.414) (xy 199.39 137.414)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3950,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.122 166.116) (xy 94.742 166.116)
+			(xy 229.87 137.414) (xy 237.49 137.414)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.962 173.736) (xy 87.122 173.736)
+			(xy 219.71 145.034) (xy 229.87 145.034)
 		)
 		(stroke
 			(width 0)
@@ -3917,7 +4078,7 @@
 	)
 	(hierarchical_label "TEMP"
 		(shape output)
-		(at 64.262 166.116 0)
+		(at 207.01 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +4089,7 @@
 	)
 	(hierarchical_label "TEMP2"
 		(shape output)
-		(at 127.762 166.116 0)
+		(at 270.51 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4005,7 +4166,7 @@
 	)
 	(hierarchical_label "TEMP1"
 		(shape output)
-		(at 94.742 166.116 0)
+		(at 237.49 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,6 +4185,76 @@
 			(justify left)
 		)
 		(uuid "e9d8cb0d-6cda-4d75-b880-5297b53e34ba")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 147.066 171.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01943ecc-7a18-4b35-b50f-8a7f7a7667c9")
+		(property "Reference" "C97"
+			(at 150.876 169.0369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 150.876 171.5769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 148.0312 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.066 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 147.066 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8af56a5-28cf-467d-8047-68e9dfef1e07")
+		)
+		(pin "2"
+			(uuid "50ac10d1-de78-43b6-ae6a-299a98fec33e")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -4105,6 +4336,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 123.698 151.638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05907d64-ffe1-493d-b536-ca3b27917548")
+		(property "Reference" "C92"
+			(at 127.508 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 127.508 152.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 124.6632 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.698 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 123.698 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae2469a5-8c2a-4d0c-8e19-192eb4adef8a")
+		)
+		(pin "2"
+			(uuid "396e88db-eea4-408e-9f42-1957fdb665ea")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.642 169.926 0)
+		(at 199.39 141.224 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4622,7 +4923,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d083b7d-4904-4a89-9b58-85123c776855")
 		(property "Reference" "R61"
-			(at 59.182 168.656 0)
+			(at 201.93 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4932,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 59.182 171.196 0)
+			(at 201.93 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4941,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 54.864 169.926 90)
+			(at 197.612 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 56.642 169.926 0)
+			(at 199.39 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.642 169.926 0)
+			(at 199.39 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,6 +5135,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 100.33 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f1c035a-548d-40b8-bd78-1d1753618e18")
+		(property "Reference" "#PWR0236"
+			(at 100.33 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 100.203 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 100.33 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd2038fb-9ccf-4853-b3fd-c527f919b354")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 213.106 64.008 90)
 		(unit 1)
@@ -4962,6 +5329,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 111.76 171.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e5006c-f45e-46ae-b06e-baa319806f7d")
+		(property "Reference" "C99"
+			(at 115.57 169.0369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 115.57 171.5769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 112.7252 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 111.76 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c997878-2989-49b7-8d9d-7d0fff6c67e9")
+		)
+		(pin "2"
+			(uuid "74e2757b-9dce-41c3-a27b-ef4003b0ae13")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5541,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.482 169.926 0)
+		(at 189.23 141.224 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5113,7 +5550,7 @@
 		(fields_autoplaced yes)
 		(uuid "1741453b-ab1e-4cc4-af05-625ff7cabc39")
 		(property "Reference" "C58"
-			(at 50.292 168.656 0)
+			(at 193.04 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5559,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 50.292 171.196 0)
+			(at 193.04 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5568,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 47.4472 173.736 0)
+			(at 190.1952 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.482 169.926 0)
+			(at 189.23 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.482 169.926 0)
+			(at 189.23 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,6 +5604,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 57.404 126.238 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174edad0-95c7-4be4-8fff-b21f398e9a43")
+		(property "Reference" "#PWR0268"
+			(at 57.404 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 57.404 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.404 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.404 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 57.404 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1b947d-0711-4dd7-8c8a-ef6375a86c0f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0268")
 					(unit 1)
 				)
 			)
@@ -5252,6 +5755,208 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 91.948 114.808 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "177ed558-0bff-4378-a4b8-d63910567eb4")
+		(property "Reference" "#PWR0279"
+			(at 91.948 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 91.821 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.948 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.948 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 91.948 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d711888-4339-48ff-b127-5555b373c39f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 45.974 145.542 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0e65da-328d-4913-babe-60ee82019a3e")
+		(property "Reference" "#PWR0283"
+			(at 45.974 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 45.974 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.974 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.974 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 45.974 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb09b56d-0949-4f59-b31f-9ad739c543bb")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0283")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.798 149.352 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fdc1e18-72ba-4f1b-bc6e-1df2373e27a4")
+		(property "Reference" "C114"
+			(at 38.354 148.0819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 38.354 150.6219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 35.7632 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.798 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.798 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e96551-c76d-4e46-b56b-79aa46bef2a2")
+		)
+		(pin "2"
+			(uuid "b57ad514-ef1f-4034-9ea1-ebe257344fda")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -5426,7 +6131,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.122 169.926 0)
+		(at 229.87 141.224 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5435,7 +6140,7 @@
 		(fields_autoplaced yes)
 		(uuid "26bb61b9-d02e-4c07-9c84-dc3150cc22f7")
 		(property "Reference" "R62"
-			(at 89.662 168.656 0)
+			(at 232.41 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +6149,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 89.662 171.196 0)
+			(at 232.41 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +6158,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.344 169.926 90)
+			(at 228.092 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +6167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.122 169.926 0)
+			(at 229.87 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +6176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.122 169.926 0)
+			(at 229.87 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,6 +6352,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 35.052 125.984 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29a5ed25-c436-444b-896d-fcf21a913cbd")
+		(property "Reference" "#PWR0266"
+			(at 35.052 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 35.052 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.052 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.052 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 35.052 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10351243-b470-4785-a7f7-f016bd615485")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 159.004 89.154 0)
 		(unit 1)
@@ -5707,6 +6478,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 23.876 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be4755c-ffc0-48d5-90cd-f4c9e380d272")
+		(property "Reference" "#PWR0265"
+			(at 23.876 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 23.876 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.876 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.876 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 23.876 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9320652-eb1f-47bf-8c94-492a09cfffd5")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -5840,6 +6677,138 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 147.066 167.386 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f468e47-6d2a-4744-a6d5-f400df78222c")
+		(property "Reference" "#PWR0246"
+			(at 147.066 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 147.066 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.066 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 147.066 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98451610-52a2-476e-a8fa-e99d333d62eb")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 123.444 167.386 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324106bf-260c-4860-82b2-8716c6e61c5d")
+		(property "Reference" "#PWR0253"
+			(at 123.444 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 123.444 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.444 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.444 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 123.444 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a76b5f84-5e25-4128-bc39-729b9a0aa0ed")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -6180,6 +7149,278 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 45.974 153.162 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd63c07-cb05-4208-995d-acc8b5601e5c")
+		(property "Reference" "#PWR0287"
+			(at 45.974 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 45.847 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.974 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.974 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 45.974 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3abba4dc-1ac7-4fa1-aca7-e77c5d8ee9f5")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0287")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 123.444 171.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db09506-9667-4453-9f59-f784ede94153")
+		(property "Reference" "C100"
+			(at 127.254 169.0369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 127.254 171.5769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 124.4092 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.444 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 123.444 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69269b8-cab0-4be1-89a7-ebadd202af45")
+		)
+		(pin "2"
+			(uuid "aac4a13a-408c-4ca1-b0ea-8a851ef2345f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 135.382 151.638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e1910ce-9943-4a95-bd28-c0b69e6992fd")
+		(property "Reference" "C93"
+			(at 139.192 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 139.192 152.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 136.3472 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.382 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 135.382 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17a7ba30-0331-4cce-9dd9-e30a031e8201")
+		)
+		(pin "2"
+			(uuid "150d4135-89ec-4907-ae82-7fa58f288bc4")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 135.382 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eebb99e-8bc9-41cf-87dd-7b1677dcc2cf")
+		(property "Reference" "#PWR0242"
+			(at 135.382 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 135.255 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 135.382 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8a01284-b0bb-42e9-bdab-7cdefee64c6f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 213.106 33.528 0)
 		(unit 1)
@@ -6259,6 +7500,138 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 35.56 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3feb7b17-342b-4bc5-b839-3adc0832de14")
+		(property "Reference" "#PWR0259"
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd6297a6-98c8-455f-a85d-4580626990ad")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 100.076 167.386 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "424504dd-242d-4514-a52a-ed7a1341416d")
+		(property "Reference" "#PWR0251"
+			(at 100.076 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 100.076 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.076 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.076 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 100.076 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c0e6b17-ba5f-4e82-bde1-5048c0ce46c5")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -6366,7 +7739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 56.642 173.736 0)
+		(at 199.39 145.034 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6375,7 +7748,7 @@
 		(fields_autoplaced yes)
 		(uuid "45732e99-bb64-4184-8f21-b6a928c3e4ce")
 		(property "Reference" "#PWR0143"
-			(at 56.642 180.086 0)
+			(at 199.39 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +7757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.642 178.816 0)
+			(at 199.39 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +7765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.642 173.736 0)
+			(at 199.39 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +7774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.642 173.736 0)
+			(at 199.39 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +7783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.642 173.736 0)
+			(at 199.39 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,6 +7871,138 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 57.912 114.554 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b17257-1b97-49ba-8a29-8df31adc5e63")
+		(property "Reference" "#PWR0264"
+			(at 57.912 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 57.785 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.912 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.912 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 57.912 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f65d7ba-b102-4097-9fc7-cadbfd954372")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 57.912 106.934 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba32910-7ecc-412f-af40-e1a25e83b074")
+		(property "Reference" "#PWR0262"
+			(at 57.912 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 57.912 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.912 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.912 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 57.912 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2a3fb30-a3b5-41a0-983c-8791ed3663ff")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 142.24 89.154 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6557,6 +8062,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.228 129.794 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "504e3543-d0d4-40e0-b024-7dc156a374ad")
+		(property "Reference" "C107"
+			(at 49.784 128.5239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 49.784 131.0639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 47.1932 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.228 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.228 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce20124-448a-4880-a817-36355084a9a9")
+		)
+		(pin "2"
+			(uuid "597f63b0-3afc-4395-94bc-dd111c6dcdd4")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -6851,8 +8426,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 24.384 114.046 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b5ffea-d731-4180-ad04-3f088f5bda02")
+		(property "Reference" "#PWR0258"
+			(at 24.384 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 24.257 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.384 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.384 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 24.384 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb5e8fce-e00c-4def-bcea-baeca75cd76e")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0258")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 120.142 162.306 0)
+		(at 262.89 133.604 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6861,7 +8502,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c74443f-c4d5-47c5-a47d-5d9f48472ebd")
 		(property "Reference" "R60"
-			(at 122.682 161.036 0)
+			(at 265.43 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +8511,7 @@
 			)
 		)
 		(property "Value" "10k_NTC"
-			(at 122.682 163.576 0)
+			(at 265.43 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +8520,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.364 162.306 90)
+			(at 261.112 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +8529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.142 162.306 0)
+			(at 262.89 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +8538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.142 162.306 0)
+			(at 262.89 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,6 +8556,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 123.444 175.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d0e4b72-1f94-47c9-afa8-d6aac1de34fa")
+		(property "Reference" "#PWR0257"
+			(at 123.444 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 123.317 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.444 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.444 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 123.444 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9235b3a-2568-4872-8fd7-38c9f1243cd7")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -7126,6 +8833,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 103.124 107.442 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cefa6d-347d-4cad-b0b8-72f5e2fd96ab")
+		(property "Reference" "#PWR0276"
+			(at 103.124 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 103.124 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.124 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.124 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 103.124 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fb57783-c72b-4921-8321-463e259f4266")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 130.048 34.798 0)
 		(unit 1)
@@ -7205,6 +8978,274 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 100.076 171.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac6c4e7-bafb-42e7-b23d-627f45609a7b")
+		(property "Reference" "C98"
+			(at 103.886 169.0369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 103.886 171.5769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 101.0412 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.076 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 100.076 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37c2e3bd-33db-48a8-9701-087ee430881c")
+		)
+		(pin "2"
+			(uuid "0f0017a5-5928-4224-961d-b4fdf57ee260")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 100.076 175.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ebc9a54-fef1-4d84-9d5b-017fd2a85f39")
+		(property "Reference" "#PWR0255"
+			(at 100.076 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 99.949 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.076 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.076 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 100.076 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9a916b2-ed33-4514-9df1-0186c038bb30")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 80.772 107.188 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff5d726-e89b-4c2b-82b5-0c30aa07b67f")
+		(property "Reference" "#PWR0274"
+			(at 80.772 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 80.772 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.772 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 80.772 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9932b2-826d-4cdf-8761-c90061d360ed")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 34.798 145.542 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "709f6a14-76d9-4a8f-a067-d36cf6fa1826")
+		(property "Reference" "#PWR0282"
+			(at 34.798 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 34.798 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.798 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.798 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 34.798 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a8edc9b-84de-4d45-b50d-d87697f3cd05")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0282")
 					(unit 1)
 				)
 			)
@@ -7529,6 +9570,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 46.736 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74e518bf-5e5a-48ff-a866-8a1cd10e2807")
+		(property "Reference" "C103"
+			(at 50.292 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 50.292 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 47.7012 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.736 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.736 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a4d08a8-81db-47c2-8150-865d380c3b93")
+		)
+		(pin "2"
+			(uuid "6d57775e-aa1f-498b-8612-177761f5187d")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 112.014 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "756dfe66-d18d-4811-ad6c-f2038797fe5e")
+		(property "Reference" "#PWR0238"
+			(at 112.014 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 111.887 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.014 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.014 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 112.014 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b0ceeb-b579-46a6-a14a-1544ddb5bd5d")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 175.768 85.344 0)
 		(unit 1)
@@ -7600,7 +9777,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.982 169.926 0)
+		(at 252.73 141.224 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +9786,7 @@
 		(fields_autoplaced yes)
 		(uuid "784e2d2a-8e79-4141-ac9a-2217f925faa2")
 		(property "Reference" "C60"
-			(at 113.792 168.656 0)
+			(at 256.54 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +9795,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 113.792 171.196 0)
+			(at 256.54 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +9804,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.9472 173.736 0)
+			(at 253.6952 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +9813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.982 169.926 0)
+			(at 252.73 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +9822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.982 169.926 0)
+			(at 252.73 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,8 +9846,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 57.15 153.416 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786eb4e9-0aeb-4126-95c7-b887e0737bcc")
+		(property "Reference" "#PWR0288"
+			(at 57.15 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 57.023 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 57.15 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14f44ff7-de8c-4e1d-a80b-4af8ecb7b0ba")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0288")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 87.122 162.306 0)
+		(at 229.87 133.604 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7679,7 +9922,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a9da348-8a98-48e1-9f2b-ce35687e223e")
 		(property "Reference" "R59"
-			(at 89.662 161.036 0)
+			(at 232.41 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +9931,7 @@
 			)
 		)
 		(property "Value" "10k_NTC"
-			(at 89.662 163.576 0)
+			(at 232.41 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +9940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 85.344 162.306 90)
+			(at 228.092 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +9949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.122 162.306 0)
+			(at 229.87 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +9958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.122 162.306 0)
+			(at 229.87 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +9983,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.142 169.926 0)
+		(at 262.89 141.224 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7749,7 +9992,7 @@
 		(fields_autoplaced yes)
 		(uuid "7edce624-949b-4366-b955-85a05974850d")
 		(property "Reference" "R63"
-			(at 122.682 168.656 0)
+			(at 265.43 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +10001,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 122.682 171.196 0)
+			(at 265.43 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +10010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.364 169.926 90)
+			(at 261.112 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,7 +10019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.142 169.926 0)
+			(at 262.89 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +10028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.142 169.926 0)
+			(at 262.89 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,6 +10112,339 @@
 			(project ""
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 158.75 151.638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "806e4676-8dfc-4f0c-a5ed-a16ca7d6a9ce")
+		(property "Reference" "C95"
+			(at 162.56 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 162.56 152.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 159.7152 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 158.75 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb58c58-712f-4d07-9a7e-20983f4ce1e5")
+		)
+		(pin "2"
+			(uuid "05107698-188f-4a79-9b09-5a67ab1cab4f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 46.736 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d8f7f3-cee9-43fe-bc46-5c58aea4e912")
+		(property "Reference" "#PWR0263"
+			(at 46.736 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 46.609 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.736 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.736 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 46.736 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb387eb2-323b-412a-873a-390be1bfd423")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 57.15 145.796 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81f6c3be-cb7b-487b-84a4-4f016c58444f")
+		(property "Reference" "#PWR0284"
+			(at 57.15 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 57.15 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 57.15 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "767cf9cf-9ae4-45db-bfe8-bd41c2d87a93")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 23.622 145.288 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a4e896-028c-4592-ae55-3626eda734b2")
+		(property "Reference" "#PWR0281"
+			(at 23.622 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 23.622 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.622 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.622 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 23.622 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dda6388-7c59-4ec3-b1d3-a8812c4a37e0")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 46.228 133.604 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8410970a-90d0-4c80-ab4b-2176b4e4d16c")
+		(property "Reference" "#PWR0271"
+			(at 46.228 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 46.101 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.228 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.228 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 46.228 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc8de132-5f17-4c82-8b00-5acba9e6f16c")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0271")
 					(unit 1)
 				)
 			)
@@ -8096,6 +10672,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 147.066 151.638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "875ee546-8201-49cc-8a61-639dc81d1c7c")
+		(property "Reference" "C94"
+			(at 150.876 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 150.876 152.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 148.0312 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.066 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 147.066 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f42a569e-ee65-4e5b-b18c-81b1ba36c3d7")
+		)
+		(pin "2"
+			(uuid "c661d889-33f4-4c5c-ae5a-44aeca0aef09")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 23.876 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c839d66-8290-4383-b030-8ae9cf98b57e")
+		(property "Reference" "C105"
+			(at 27.432 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 27.432 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 24.8412 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 23.876 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 23.876 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "305188be-9fcb-44fe-ab7f-456d83226b03")
+		)
+		(pin "2"
+			(uuid "021d36e4-e988-4a82-a8c1-ae4e453bff15")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 43.18 73.914 270)
 		(unit 1)
@@ -8243,6 +10959,208 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 69.596 114.554 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937aed5c-fbf6-4269-8d79-f082b868d470")
+		(property "Reference" "#PWR0277"
+			(at 69.596 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 69.469 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.596 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.596 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 69.596 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf80b90-13de-4a85-b00a-d6d9d9a76a2f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 24.384 106.426 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a4af2f-c1d9-45ac-a2ff-26261f4fafbb")
+		(property "Reference" "#PWR0254"
+			(at 24.384 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 24.384 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.384 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.384 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 24.384 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a678f7f0-7712-493e-b19b-682fb9a284b4")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.596 110.744 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93aa60fb-4be3-45af-8947-d20a62c8c50b")
+		(property "Reference" "C109"
+			(at 73.152 109.4739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 73.152 112.0139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 70.5612 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.596 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.596 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b37913c-ec97-46ae-b02b-8071c1997577")
+		)
+		(pin "2"
+			(uuid "20e358a2-44da-4079-86c6-c41bfd0d48f8")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -8419,6 +11337,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 23.622 149.098 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9679b0eb-677c-4e3b-92ef-834a1402dc2f")
+		(property "Reference" "C113"
+			(at 27.178 147.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 27.178 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 24.5872 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 23.622 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 23.622 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42be44c0-25ee-452a-9c3a-81fa54d485c7")
+		)
+		(pin "2"
+			(uuid "00f5d44c-26c5-4b33-acc5-3f820c73808e")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 242.062 86.868 0)
 		(unit 1)
@@ -8483,6 +11471,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993026e2-4d1a-4ae0-ba05-cd26f5decff9")
+		(property "Reference" "C102"
+			(at 39.116 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 39.116 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 36.5252 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8643f4c-8c5a-4ab3-bcf6-708635ec4bb2")
+		)
+		(pin "2"
+			(uuid "1339ee38-8c46-4393-841b-663464f8dd33")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -8626,6 +11684,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 103.124 115.062 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd6977d-26ab-43fe-893d-1be741862ed9")
+		(property "Reference" "#PWR0280"
+			(at 103.124 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 102.997 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.124 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.124 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 103.124 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6600a94a-1b98-427c-a075-10bd60999414")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0280")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 46.228 125.984 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de085e4-d7d3-4ad9-b4be-58e6606a69c0")
+		(property "Reference" "#PWR0267"
+			(at 46.228 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 46.228 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.228 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.228 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.228 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "600c7869-3efa-4aaa-94a8-a6967b4301a0")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 222.758 45.72 0)
 		(unit 1)
@@ -8727,7 +11917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.142 173.736 0)
+		(at 262.89 145.034 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8736,7 +11926,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0fe1b2f-c6bd-4088-9efc-281d2f008f77")
 		(property "Reference" "#PWR0145"
-			(at 120.142 180.086 0)
+			(at 262.89 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +11935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.142 178.816 0)
+			(at 262.89 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +11943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.142 173.736 0)
+			(at 262.89 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,7 +11952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.142 173.736 0)
+			(at 262.89 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +11961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.142 173.736 0)
+			(at 262.89 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,6 +11976,142 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.052 129.794 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d96113-b876-4ff3-9439-18f5c564243c")
+		(property "Reference" "C106"
+			(at 38.608 128.5239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 38.608 131.0639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 36.0172 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.052 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.052 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ae5ac0-4e0a-480a-a5c3-51ee9fbba124")
+		)
+		(pin "2"
+			(uuid "41b3be58-a24a-4356-b274-35b8dd20e232")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 80.772 114.808 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4630029-12e3-4975-a7aa-c9f0802925f3")
+		(property "Reference" "#PWR0278"
+			(at 80.772 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 80.645 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.772 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 80.772 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6688aa2c-12ef-4274-9e8a-c6c1d2952a0a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -8993,7 +12319,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 56.642 158.496 0)
+		(at 199.39 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9002,7 +12328,7 @@
 		(fields_autoplaced yes)
 		(uuid "a59c5122-ce25-44ce-bd4e-b9a332b97c97")
 		(property "Reference" "#PWR0142"
-			(at 56.642 162.306 0)
+			(at 199.39 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +12337,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 56.642 153.162 0)
+			(at 199.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +12345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.642 158.496 0)
+			(at 199.39 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +12354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.642 158.496 0)
+			(at 199.39 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +12363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 56.642 158.496 0)
+			(at 199.39 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,6 +12469,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 123.698 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9656e7a-8afa-4489-afbf-67964364fc97")
+		(property "Reference" "#PWR0241"
+			(at 123.698 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 123.571 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.698 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 123.698 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac613d1a-788a-4fbf-b81a-356ae71037b2")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 159.004 36.322 0)
 		(unit 1)
@@ -9203,6 +12595,414 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.404 130.048 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac261349-f95f-49c8-880c-c53abb16c5dd")
+		(property "Reference" "C108"
+			(at 60.96 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 60.96 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 58.3692 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.404 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.404 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d5fbbaf-dd1f-496d-b665-8fd4c2ed836b")
+		)
+		(pin "2"
+			(uuid "2aa0fa72-88ac-4b24-959c-b99bb3530f71")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 35.56 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac35594a-bf80-4931-bde7-af6c6ecd75fe")
+		(property "Reference" "#PWR0260"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 35.433 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8107f71b-0a71-4118-aafe-f1f43ff95b49")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 149.606 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad1f296d-2555-4dbf-ad2f-fc1c801993cf")
+		(property "Reference" "C116"
+			(at 60.706 148.3359 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 60.706 150.8759 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 58.1152 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd2c98a9-014b-4b50-8370-4b783ee1e467")
+		)
+		(pin "2"
+			(uuid "be6fc905-3a95-424f-ad42-f454d854abc5")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 100.33 147.828 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad5fc9c5-9d14-4099-b389-bc71e5f65088")
+		(property "Reference" "#PWR0235"
+			(at 100.33 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 100.33 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 100.33 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd3e21bb-8cdc-4f32-ba1c-ffd4a20281d9")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 111.76 175.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7b0324-615c-4add-afe4-1acabcd9aaac")
+		(property "Reference" "#PWR0256"
+			(at 111.76 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 111.633 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 111.76 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72997fd9-e914-42ed-8a9f-fb2d32fa61b4")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 112.014 151.638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c04864-55ad-421d-becf-fc9548bd0af8")
+		(property "Reference" "C90"
+			(at 115.824 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 115.824 152.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 112.9792 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 112.014 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 112.014 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe8bfb3-3049-49ea-86f9-1fd55d0940ff")
+		)
+		(pin "2"
+			(uuid "5c74fd3f-0f1f-41f6-9687-0d7fbe5cde32")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -9273,6 +13073,142 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.948 110.998 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c46d2a-3138-48e7-9452-754da1cb34a0")
+		(property "Reference" "C111"
+			(at 95.504 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 95.504 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 92.9132 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.948 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.948 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94d9d3fd-b35f-4cd6-84fb-f455843bb9ac")
+		)
+		(pin "2"
+			(uuid "7f73dfeb-537d-473e-8be1-bb15f0829d50")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 34.798 153.162 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b410b4b9-7925-480b-8b60-f1589d622b8c")
+		(property "Reference" "#PWR0286"
+			(at 34.798 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 34.671 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.798 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.798 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 34.798 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27d76b51-b263-49c0-8c54-cbba5a898cfc")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0286")
 					(unit 1)
 				)
 			)
@@ -9373,6 +13309,204 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 57.404 133.858 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b70072c0-bfd9-4c20-b046-40f3ef5afbb9")
+		(property "Reference" "#PWR0272"
+			(at 57.404 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 57.277 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.404 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.404 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 57.404 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "208e9550-3b01-404c-a43a-49339c7546c2")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 112.014 147.828 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71a0b12-0bd3-403f-bb91-3250e35ae718")
+		(property "Reference" "#PWR0237"
+			(at 112.014 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 112.014 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.014 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.014 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 112.014 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "465d3694-5a31-44da-a594-ce8b02c6922e")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 123.698 147.828 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b767eecb-35d1-48ed-9771-7282404f50ae")
+		(property "Reference" "#PWR0239"
+			(at 123.698 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 123.698 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.698 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 123.698 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a85216ac-0cea-4b5b-9716-29a26e5169c9")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -9532,7 +13666,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 120.142 158.496 0)
+		(at 262.89 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9541,7 +13675,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb0fdaa3-baf8-4b8b-9fc0-040e88183307")
 		(property "Reference" "#PWR0140"
-			(at 120.142 162.306 0)
+			(at 262.89 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +13684,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 120.142 153.162 0)
+			(at 262.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +13692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.142 158.496 0)
+			(at 262.89 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +13701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.142 158.496 0)
+			(at 262.89 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +13710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 120.142 158.496 0)
+			(at 262.89 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +13732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.962 169.926 0)
+		(at 219.71 141.224 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9607,7 +13741,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc6367b2-decb-4889-8647-471e26655853")
 		(property "Reference" "C59"
-			(at 80.772 168.656 0)
+			(at 223.52 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +13750,7 @@
 			)
 		)
 		(property "Value" "2.2uf"
-			(at 80.772 171.196 0)
+			(at 223.52 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +13759,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.9272 173.736 0)
+			(at 220.6752 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +13768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.962 169.926 0)
+			(at 219.71 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +13777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.962 169.926 0)
+			(at 219.71 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,6 +13947,212 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.772 110.998 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c01a440b-4e96-431a-bb44-00c9539cc983")
+		(property "Reference" "C110"
+			(at 84.328 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 84.328 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 81.7372 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.772 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.772 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e84bd8d6-181b-4475-aefc-ad9619ca5064")
+		)
+		(pin "2"
+			(uuid "e141ea10-9c44-472c-aac8-dd10fed16857")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 35.052 133.604 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16e1335-3832-46b7-bf1e-e0a1ed606a93")
+		(property "Reference" "#PWR0270"
+			(at 35.052 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 34.925 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.052 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.052 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 35.052 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315835be-ebfa-4f3f-aea7-e5bac981cdac")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.912 110.744 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24901cb-7e42-4a09-8438-e6ebf83fe27c")
+		(property "Reference" "C104"
+			(at 61.468 109.4739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 61.468 112.0139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 58.8772 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.912 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.912 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feada531-80fe-4795-a7b0-d76b2e3d1da9")
+		)
+		(pin "2"
+			(uuid "988cb0fb-dfe4-4add-ba44-07bddb854456")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -10156,6 +14496,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 24.384 110.236 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1c534b-b023-4cb7-b858-b34476540761")
+		(property "Reference" "C101"
+			(at 27.94 108.9659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 27.94 111.5059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 25.3492 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.384 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.384 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5122647-5b65-43cf-b7ad-d77413c2a1bc")
+		)
+		(pin "2"
+			(uuid "b97497f8-fc78-455c-932a-b95ec358cb21")
+		)
+		(instances
+			(project ""
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 221.488 78.994 270)
 		(unit 1)
@@ -10218,6 +14628,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 135.382 171.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7f048e-89dc-44b1-8c29-be344043078c")
+		(property "Reference" "C96"
+			(at 139.192 169.0369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 139.192 171.5769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 136.3472 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.382 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 135.382 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46b8e13f-d02c-424f-bb03-1d8055a85674")
+		)
+		(pin "2"
+			(uuid "5497dae4-63fa-4e62-b955-4deac44a2104")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -10324,6 +14804,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 100.33 151.638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d21a0f7b-4467-47a6-8f97-99acaad16714")
+		(property "Reference" "C89"
+			(at 104.14 149.4789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 104.14 152.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+			(at 101.2952 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EKXJ161Exx561ML50S"
+			(at 100.33 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe9a652c-771f-4ba3-8d06-c01d458cb2a4")
+		)
+		(pin "2"
+			(uuid "a0942cc7-da20-46d9-8367-877a154024c7")
+		)
+		(instances
+			(project ""
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 103.124 111.252 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d52e82-a2c0-4284-a6cd-76e63ab9dffc")
+		(property "Reference" "C112"
+			(at 106.68 109.9819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 106.68 112.5219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 104.0892 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.124 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 103.124 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27d8c3a5-e290-4373-a980-0ed273848ee6")
+		)
+		(pin "2"
+			(uuid "f4516bdf-7a93-4aaa-8a53-19305c6954e1")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 159.004 85.344 0)
 		(unit 1)
@@ -10388,6 +15008,204 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 158.75 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3442a32-e8f5-4ed1-988e-0377eb15ae20")
+		(property "Reference" "#PWR0248"
+			(at 158.75 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 158.623 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 158.75 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa9cebea-57e7-48f0-b3cf-f0d508994b96")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 147.066 155.448 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6382179-fdde-45ba-b762-c426905b3c09")
+		(property "Reference" "#PWR0247"
+			(at 147.066 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 146.939 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.066 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 147.066 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c875af5-07ad-4cad-b039-fac25c908dbd")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 135.382 167.386 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d67cae15-93f4-4c4a-9c53-f06c262224f4")
+		(property "Reference" "#PWR0245"
+			(at 135.382 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 135.382 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 135.382 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b1c5941-bdba-4fdd-b4f6-3d2fe908b0ca")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -10547,6 +15365,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 23.876 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc13b961-d9ce-4884-ad8f-6a57c170c5dd")
+		(property "Reference" "#PWR0269"
+			(at 23.876 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 23.749 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.876 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.876 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 23.876 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8720a61b-c3ae-4040-94b8-b020a231bf8d")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 147.066 175.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcbc4c5d-fce7-41da-b54b-b7677db9de58")
+		(property "Reference" "#PWR0250"
+			(at 147.066 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 146.939 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.066 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 147.066 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff6543a1-bf56-42ec-87f8-0d8088fc085f")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.958 77.47 270)
 		(unit 1)
@@ -10684,7 +15634,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 87.122 158.496 0)
+		(at 229.87 129.794 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10693,7 +15643,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1d0b14d-3f65-49ae-acb5-78366513e71b")
 		(property "Reference" "#PWR0141"
-			(at 87.122 162.306 0)
+			(at 229.87 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10702,7 +15652,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 87.122 153.162 0)
+			(at 229.87 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +15660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.122 158.496 0)
+			(at 229.87 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +15669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.122 158.496 0)
+			(at 229.87 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +15678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 87.122 158.496 0)
+			(at 229.87 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,6 +15693,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 135.382 175.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37658c3-fc02-4a7b-b1b5-957b93d24698")
+		(property "Reference" "#PWR0249"
+			(at 135.382 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 135.255 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 135.382 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c17fbf5-902d-4281-8fde-f9821c5b10a7")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -10901,6 +15917,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 111.76 167.386 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67ff9f3-2a69-4ffe-ac3e-ab6b36705006")
+		(property "Reference" "#PWR0252"
+			(at 111.76 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 111.76 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 111.76 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7768dd-1864-4fef-8af6-9096b637c18a")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 239.522 67.056 0)
 		(unit 1)
@@ -11001,6 +16083,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 135.382 147.828 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec4d2207-832b-467f-bd95-8da7195d4112")
+		(property "Reference" "#PWR0240"
+			(at 135.382 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 135.382 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.382 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 135.382 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "451aa722-9f9a-48b4-ab64-7b43af95eaab")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 158.75 147.828 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecee2218-8039-4231-945a-d77a22fd71a4")
+		(property "Reference" "#PWR0244"
+			(at 158.75 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 158.75 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 158.75 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "280ec82c-aa96-490f-9f1d-765f2465c72d")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 34.798 28.448 0)
 		(unit 1)
@@ -11080,6 +16294,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 23.622 152.908 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efeda1ca-5796-4096-b291-b049f53fecc6")
+		(property "Reference" "#PWR0285"
+			(at 23.622 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 23.495 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.622 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.622 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 23.622 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3d8dda3-c3fb-480e-ab44-c32273e5c973")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -11219,17 +16499,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.122 173.736 0)
+		(lib_id "power:+BATT")
+		(at 46.736 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2e5169a-5b9c-49e3-b079-9243f71dfdf1")
-		(property "Reference" "#PWR0144"
-			(at 87.122 180.086 0)
+		(uuid "f2b223d2-8291-4ed6-8344-3e196bf167ed")
+		(property "Reference" "#PWR0261"
+			(at 46.736 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,8 +16517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 87.122 178.816 0)
+		(property "Value" "+BATT"
+			(at 46.736 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +16526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.122 173.736 0)
+			(at 46.736 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +16535,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.122 173.736 0)
+			(at 46.736 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 46.736 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f446d149-9048-4f4d-88e5-9093a33e8c42")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 145.034 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e5169a-5b9c-49e3-b079-9243f71dfdf1")
+		(property "Reference" "#PWR0144"
+			(at 229.87 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +16610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.122 173.736 0)
+			(at 229.87 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,6 +16625,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 91.948 107.188 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6565037-9173-4379-941d-54a03f06ae68")
+		(property "Reference" "#PWR0275"
+			(at 91.948 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 91.948 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.948 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.948 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 91.948 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54dc11d-1798-45e6-a7e2-b9621375cf8e")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)
@@ -11385,6 +16797,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 147.066 147.828 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f84cee44-699b-4963-b780-be581f938d63")
+		(property "Reference" "#PWR0243"
+			(at 147.066 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 147.066 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.066 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 147.066 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abf5fa94-5a01-44db-aec7-b26fa2946b59")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 139.7 44.196 0)
 		(unit 1)
@@ -11485,8 +16963,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 69.596 106.934 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fddfc54c-f4bf-4f6e-920a-245e116478f7")
+		(property "Reference" "#PWR0273"
+			(at 69.596 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 69.596 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.596 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.596 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 69.596 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c8c073-9748-49a5-aecc-d8bdd4213fa6")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 56.642 162.306 0)
+		(at 199.39 133.604 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11495,7 +17039,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe4e4e63-cf03-4db5-b535-8f23901dc94e")
 		(property "Reference" "R58"
-			(at 59.182 161.036 0)
+			(at 201.93 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +17048,7 @@
 			)
 		)
 		(property "Value" "10k_NTC"
-			(at 59.182 163.576 0)
+			(at 201.93 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,7 +17057,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 54.864 162.306 90)
+			(at 197.612 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +17066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 56.642 162.306 0)
+			(at 199.39 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +17075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.642 162.306 0)
+			(at 199.39 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11549,6 +17093,76 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.974 149.352 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefeece0-8488-4970-ae4f-d3793a6c382d")
+		(property "Reference" "C115"
+			(at 49.53 148.0819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uf"
+			(at 49.53 150.6219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 46.9392 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.974 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.974 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6032d7-ba4a-4195-85cf-277368307134")
+		)
+		(pin "2"
+			(uuid "f9621004-5d02-4f1d-a400-f5da48d5ed58")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
+					(reference "C115")
 					(unit 1)
 				)
 			)
