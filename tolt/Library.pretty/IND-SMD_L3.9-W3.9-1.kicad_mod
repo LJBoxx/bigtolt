@@ -1,0 +1,119 @@
+(footprint "IND-SMD_L3.9-W3.9-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "11068895-ffbd-4e78-91e2-5dd52a2004d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L3.9-W3.9-1"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "b5dec231-feb3-4286-b391-ea4e23f90bbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da4c9b2c-2939-4000-93e8-f20d04c04365")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "129a2211-69cc-46ce-8337-9a9f6697edb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -1.97)
+		(end 0.52 -1.97)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce055768-106d-4b6a-bf60-f12f4f1da957")
+	)
+	(fp_line
+		(start 0.5 1.97)
+		(end -0.52 1.97)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70c6b306-a338-4717-af2e-27e08926c505")
+	)
+	(fp_circle
+		(center -1.95 1.95)
+		(end -1.92 1.95)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf62adbb-8a65-4952-ab4e-d03827b04219")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0ab2fa47-42bc-424c-9189-a7bc2244cb9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.48 0)
+		(size 1.45 3.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9aff04a-472d-447b-9703-07462b18e33f")
+	)
+	(pad "2" smd rect
+		(at 1.48 0)
+		(size 1.45 3.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1667d8d6-97d5-40af-870d-cb0e8cb4fa84")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/IND-SMD_L3.9-W3.9-1.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1184,7 +1184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 146.812 165.354 0)
 			(effects
 				(font
@@ -1262,7 +1262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 153.67 164.592 0)
 			(effects
 				(font
@@ -1471,7 +1471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 144.526 157.734 0)
 			(effects
 				(font
@@ -1613,7 +1613,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 143.764 132.334 0)
+			(at 153.67 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,8 +2080,8 @@
 		)
 	)
 	(sheet
-		(at 53.086 55.88)
-		(size 29.464 85.598)
+		(at 66.294 27.686)
+		(size 29.464 108.204)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2096,7 +2096,7 @@
 		)
 		(uuid "4189330a-b7ac-4caa-ad9c-153fd2ec5fe4")
 		(property "Sheetname" "IO"
-			(at 53.086 55.1684 0)
+			(at 66.294 26.9744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2105,7 @@
 			)
 		)
 		(property "Sheetfile" "conn.kicad_sch"
-			(at 53.086 142.0626 0)
+			(at 66.294 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
