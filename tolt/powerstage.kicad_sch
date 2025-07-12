@@ -1715,18 +1715,6 @@
 		(uuid "75548d94-2eb5-4e97-9f99-21cab0ec425d")
 	)
 	(junction
-		(at 225.298 90.678)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "760863a2-40e6-493b-8c24-937ee7ac18d0")
-	)
-	(junction
-		(at 142.24 89.154)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "783180d0-772f-4f9c-80ae-8850fe3bfee5")
-	)
-	(junction
 		(at 209.296 57.658)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1847,6 +1835,12 @@
 		(uuid "b3148510-d278-48fe-b002-61704ce1add5")
 	)
 	(junction
+		(at 225.298 90.678)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8368a86-5f76-4b3c-a8f9-3addb7de735e")
+	)
+	(junction
 		(at 46.99 73.914)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1869,6 +1863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c64f03d8-a0d8-4542-9c1f-878c0a3d0562")
+	)
+	(junction
+		(at 46.99 85.598)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8844130-42c4-4970-a08d-be5bd9e5c504")
 	)
 	(junction
 		(at 126.238 32.004)
@@ -1905,12 +1905,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3c403da-047a-4e48-a650-913854321f2a")
-	)
-	(junction
-		(at 46.99 85.598)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4a5b066-aa4b-4469-8611-844c5fa2c88b")
 	)
 	(junction
 		(at 30.988 52.578)
@@ -1977,6 +1971,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b848fe-8d82-4b74-9f02-61e96280fb42")
+	)
+	(junction
+		(at 142.24 89.154)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faa3e77c-51ed-4495-90f1-01e59ee9b4b7")
 	)
 	(junction
 		(at 42.672 58.928)
@@ -4536,7 +4536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.798 39.37 90)
 			(effects
 				(font
@@ -5007,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.106 41.656 90)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.106 65.786 90)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.048 64.262 90)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.048 63.754 90)
 			(effects
 				(font
@@ -5987,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.106 65.278 90)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.048 61.468 90)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.106 43.942 90)
 			(effects
 				(font
@@ -8139,7 +8139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 81.788 180)
+		(at 46.99 81.788 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8153,7 +8153,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0.3mr"
@@ -8162,11 +8162,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:R5930"
-			(at 48.768 81.788 90)
+			(at 45.212 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.798 60.198 90)
 			(effects
 				(font
@@ -8652,7 +8652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.798 38.862 90)
 			(effects
 				(font
@@ -9442,7 +9442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.798 46.99 0)
 			(effects
 				(font
@@ -9527,7 +9527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.798 57.912 90)
 			(effects
 				(font
@@ -9840,72 +9840,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 57.15 153.416 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "786eb4e9-0aeb-4126-95c7-b887e0737bcc")
-		(property "Reference" "#PWR0288"
-			(at 57.15 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 57.023 157.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 57.15 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14f44ff7-de8c-4e1d-a80b-4af8ecb7b0ba")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
-					(reference "#PWR0288")
 					(unit 1)
 				)
 			)
@@ -10247,72 +10181,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR0263")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 57.15 145.796 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81f6c3be-cb7b-487b-84a4-4f016c58444f")
-		(property "Reference" "#PWR0284"
-			(at 57.15 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 57.15 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 57.15 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "767cf9cf-9ae4-45db-bfe8-bd41c2d87a93")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
-					(reference "#PWR0284")
 					(unit 1)
 				)
 			)
@@ -11168,7 +11036,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 85.344 180)
+		(at 142.24 85.344 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11182,7 +11050,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0.3mr"
@@ -11191,11 +11059,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:R5930"
-			(at 144.018 85.344 90)
+			(at 140.462 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 225.298 86.868 180)
+		(at 225.298 86.868 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11562,7 +11430,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0.3mr"
@@ -11571,11 +11439,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:R5930"
-			(at 227.076 86.868 90)
+			(at 223.52 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +11509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.798 60.706 90)
 			(effects
 				(font
@@ -12408,7 +12276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.798 49.784 0)
 			(effects
 				(font
@@ -12731,76 +12599,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
 					(reference "#PWR0260")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 149.606 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad1f296d-2555-4dbf-ad2f-fc1c801993cf")
-		(property "Reference" "C116"
-			(at 60.706 148.3359 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uf"
-			(at 60.706 150.8759 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
-			(at 58.1152 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd2c98a9-014b-4b50-8370-4b783ee1e467")
-		)
-		(pin "2"
-			(uuid "be6fc905-3a95-424f-ad42-f454d854abc5")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/e4adc0b2-dfb8-4d5a-8c8c-415a15b109e6"
-					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -13537,7 +13335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.798 36.576 90)
 			(effects
 				(font
@@ -13825,7 +13623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.106 62.992 90)
 			(effects
 				(font
@@ -14368,7 +14166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.048 42.418 90)
 			(effects
 				(font
@@ -15789,7 +15587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.106 44.45 90)
 			(effects
 				(font
@@ -16390,7 +16188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.048 42.926 90)
 			(effects
 				(font
@@ -17193,7 +16991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.048 40.132 90)
 			(effects
 				(font
