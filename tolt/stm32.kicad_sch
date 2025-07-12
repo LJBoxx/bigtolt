@@ -5705,7 +5705,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 35.306 59.69 180)
+		(at 35.306 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5714,7 +5714,7 @@
 		(fields_autoplaced yes)
 		(uuid "08faf352-5acb-4c5a-84a2-a4c8f31949fb")
 		(property "Reference" "#PWR0101"
-			(at 35.306 55.88 0)
+			(at 35.306 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5723,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 35.306 64.77 0)
+			(at 35.306 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
