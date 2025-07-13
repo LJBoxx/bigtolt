@@ -2011,26 +2011,6 @@
 				(justify left)
 			)
 		)
-		(pin "NRF_swclk" output
-			(at 117.348 153.924 270)
-			(uuid "9f2d283e-f17c-4d6f-84eb-1fd132d6db0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NRF_swdio" bidirectional
-			(at 119.634 153.924 270)
-			(uuid "87feac8e-cc8b-4743-bb9f-d07cd5c0359f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PC10_UART_TX" output
 			(at 115.062 153.924 270)
 			(uuid "6afb3734-5dfd-4a20-a737-9435839fb04c")

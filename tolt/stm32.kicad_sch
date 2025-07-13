@@ -3703,6 +3703,16 @@
 		)
 		(uuid "6bb88d90-bf99-438c-9dec-8afbf7922ef5")
 	)
+	(text "Halls from gpio c 6-7-8 to 13-14-15"
+		(exclude_from_sim no)
+		(at 50.546 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "783dc2ed-058e-4db8-a3c0-3d2c019518c0")
+	)
 	(text "bypass caps\n"
 		(exclude_from_sim no)
 		(at 139.192 41.656 0)
@@ -3820,6 +3830,18 @@
 		(uuid "000e023f-dae2-485a-81f0-86b1a35d0cbc")
 	)
 	(no_connect
+		(at 109.474 138.684)
+		(uuid "0d9f0aca-cb53-49a0-ae49-7b4b8dae1d1e")
+	)
+	(no_connect
+		(at 73.914 108.204)
+		(uuid "274ec255-f3db-4bd5-b7a5-2af1dcd63bab")
+	)
+	(no_connect
+		(at 73.914 103.124)
+		(uuid "5602b4b6-5764-4171-a429-b75ab4e7e0d7")
+	)
+	(no_connect
 		(at 269.24 45.72)
 		(uuid "76b0d4a1-5b5b-4e37-955f-4edace4988c6")
 	)
@@ -3828,20 +3850,12 @@
 		(uuid "a7825e08-bb5c-4cc1-bd3b-5c543f5310e0")
 	)
 	(no_connect
-		(at 73.914 125.984)
-		(uuid "c1898b31-89e0-4ab0-9a68-38c78253a4f7")
-	)
-	(no_connect
 		(at 109.474 113.284)
 		(uuid "d30764cb-4c15-43c8-83b2-d0eebd676c72")
 	)
 	(no_connect
-		(at 73.914 120.904)
-		(uuid "e200fb96-e6cc-4aa3-9c32-f1473cfc0587")
-	)
-	(no_connect
-		(at 73.914 123.444)
-		(uuid "e75935a8-36f0-4b03-afcf-59005de95af2")
+		(at 73.914 105.664)
+		(uuid "f9e0ae6f-2e6a-4793-b8b1-2fee11d8ea3f")
 	)
 	(wire
 		(pts
@@ -5111,7 +5125,7 @@
 	)
 	(hierarchical_label "HALL_2"
 		(shape input)
-		(at 73.914 105.664 180)
+		(at 73.914 123.444 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5298,7 +5312,7 @@
 	)
 	(hierarchical_label "scl_bmi"
 		(shape bidirectional)
-		(at 109.474 138.684 0)
+		(at 109.474 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5328,17 +5342,6 @@
 			(justify left)
 		)
 		(uuid "a7e6a008-c454-4dc7-8ae1-71443c0964b6")
-	)
-	(hierarchical_label "NRF_swclk"
-		(shape output)
-		(at 109.474 115.824 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9466450-3c52-4e48-8dee-0f7202541887")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
@@ -5375,7 +5378,7 @@
 	)
 	(hierarchical_label "HALL_3"
 		(shape input)
-		(at 73.914 108.204 180)
+		(at 73.914 120.904 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5427,17 +5430,6 @@
 			(justify left)
 		)
 		(uuid "c0817474-3e91-4612-95e3-3dc4229ecc74")
-	)
-	(hierarchical_label "NRF_swdio"
-		(shape bidirectional)
-		(at 109.474 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d510b5a0-22ac-4c52-b6e7-60574fdfcbc8")
 	)
 	(hierarchical_label "SERVO"
 		(shape output)
@@ -5540,7 +5532,7 @@
 	)
 	(hierarchical_label "HALL_1"
 		(shape input)
-		(at 73.914 103.124 180)
+		(at 73.914 125.984 180)
 		(effects
 			(font
 				(size 1.27 1.27)
