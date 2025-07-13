@@ -1017,235 +1017,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -4128,6 +3899,10 @@
 		(uuid "11fb0246-779e-4089-a663-6510e91810dc")
 	)
 	(no_connect
+		(at 243.84 87.376)
+		(uuid "461fb65a-10c9-4246-b8a2-703ec1a0807b")
+	)
+	(no_connect
 		(at 59.944 155.194)
 		(uuid "9956e2ad-e761-4757-a086-0b7e136ecffe")
 	)
@@ -6005,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 91.948 145.542 0)
 			(effects
 				(font
@@ -6750,7 +6525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 248.666 140.462 0)
 			(effects
 				(font
@@ -7090,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 135.128 109.474 0)
 			(effects
 				(font
@@ -7680,7 +7455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 203.454 81.026 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7690,7 +7465,7 @@
 		(fields_autoplaced yes)
 		(uuid "663b4e3e-a0d5-4653-9873-1f5c999a339b")
 		(property "Reference" "J7"
-			(at 205.74 79.7559 0)
+			(at 205.74 81.0259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7474,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 205.74 82.2959 0)
+			(at 205.74 83.5659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +7482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 203.454 81.026 0)
 			(effects
 				(font
@@ -7725,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 203.454 81.026 0)
 			(effects
 				(font
@@ -7749,6 +7524,9 @@
 		(pin "5"
 			(uuid "c394010f-a2fb-477e-bbdc-f886021c85f8")
 		)
+		(pin "6"
+			(uuid "f9fd91ad-48b5-417f-8f25-72ab35266e4c")
+		)
 		(instances
 			(project ""
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/4189330a-b7ac-4caa-ad9c-153fd2ec5fe4"
@@ -7759,7 +7537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 242.062 44.958 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7769,7 +7547,7 @@
 		(fields_autoplaced yes)
 		(uuid "67fba8df-3895-44c3-8702-bf0300c37101")
 		(property "Reference" "J4"
-			(at 244.348 43.6879 0)
+			(at 245.11 44.9579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7556,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 244.348 46.2279 0)
+			(at 245.11 47.4979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 242.062 44.958 0)
 			(effects
 				(font
@@ -7804,7 +7582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 242.062 44.958 0)
 			(effects
 				(font
@@ -7827,6 +7605,9 @@
 		)
 		(pin "3"
 			(uuid "0a3f314c-bee6-4482-9385-730cbf304154")
+		)
+		(pin "6"
+			(uuid "2babda5c-15ec-4aeb-afad-5dfe683f13d1")
 		)
 		(instances
 			(project "tolt"
@@ -8001,7 +7782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 137.922 43.942 0)
 			(effects
 				(font
@@ -8037,14 +7818,14 @@
 		(pin "4"
 			(uuid "7f21a3fd-2ec1-4a50-bb62-686f89eed1d4")
 		)
-		(pin "6"
-			(uuid "554bfb00-9e0d-41ce-a8ce-3350e9c30113")
-		)
 		(pin "2"
 			(uuid "84a0d732-48ba-41c9-9b59-b96597c8c383")
 		)
 		(pin "5"
 			(uuid "d778b9f4-11be-4d1a-811b-016f44358dac")
+		)
+		(pin "6"
+			(uuid "bcbb9286-33b3-4f97-a61b-b4fb7d4cc9e5")
 		)
 		(instances
 			(project ""
@@ -8487,7 +8268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 220.218 28.448 0)
 			(effects
 				(font
@@ -10468,7 +10249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 248.92 79.756 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10478,7 +10259,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0151530-7501-4d52-8d8c-31ebbf8221e6")
 		(property "Reference" "J1"
-			(at 251.206 78.4859 0)
+			(at 251.46 79.7559 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +10268,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 251.206 81.0259 0)
+			(at 251.46 82.2959 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 248.92 79.756 0)
 			(effects
 				(font
@@ -10513,7 +10294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 248.92 79.756 0)
 			(effects
 				(font
@@ -10536,6 +10317,9 @@
 		)
 		(pin "3"
 			(uuid "8085e2ea-f911-48c4-9cf5-0f5c43fa33ef")
+		)
+		(pin "6"
+			(uuid "a5a6032a-bee2-4338-a6ef-4e313acd50f0")
 		)
 		(instances
 			(project ""
@@ -12858,7 +12642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 248.666 110.998 0)
 			(effects
 				(font
