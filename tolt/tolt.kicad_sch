@@ -556,6 +556,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.758 94.996) (xy 108.458 94.996)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dad5b1-ffc7-4ac4-83da-316bcdcd75a6")
+	)
+	(wire
+		(pts
 			(xy 201.676 49.022) (xy 228.346 49.022)
 		)
 		(stroke
@@ -666,6 +676,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.758 92.964) (xy 108.458 92.964)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c6f27e-0d3c-407a-ac3a-f89644408167")
+	)
+	(wire
+		(pts
 			(xy 95.758 106.426) (xy 108.458 106.426)
 		)
 		(stroke
@@ -713,6 +733,16 @@
 			(type default)
 		)
 		(uuid "7281aa9b-3949-46a0-a6d1-cafc50be2c25")
+	)
+	(wire
+		(pts
+			(xy 149.352 34.036) (xy 175.006 34.036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e2ea2a-a01c-4c4f-8dce-a0e7c216df33")
 	)
 	(wire
 		(pts
@@ -2061,66 +2091,6 @@
 				(justify left)
 			)
 		)
-		(pin "SENS_A+" input
-			(at 149.352 106.934 0)
-			(uuid "4ebd5274-c1de-466d-ba54-09efad3499de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_A-" input
-			(at 149.352 109.22 0)
-			(uuid "6f3066e8-dde5-4ce2-8f3c-8cc110995cac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_B+" input
-			(at 149.352 116.078 0)
-			(uuid "fe987ce4-e8b3-481d-8d99-b637b9c49461")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_B-" input
-			(at 149.352 118.364 0)
-			(uuid "ca509cc9-caa8-49e4-a68e-cd5b5d005682")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_C+" input
-			(at 149.352 124.968 0)
-			(uuid "1753ccd0-e85a-4c9c-9856-65cbf096f653")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_C-" input
-			(at 149.352 127.254 0)
-			(uuid "ee96f7a1-56e3-4850-999a-04d88c1f9eb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SERVO" output
 			(at 108.458 92.964 180)
 			(uuid "81d59f9e-64a3-4b75-ac0f-c4a8c4980b1a")
@@ -2249,6 +2219,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SENS_A_N" input
+			(at 149.352 109.22 0)
+			(uuid "cf13b416-36dd-4f9d-9886-516341301b35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENS_A_P" input
+			(at 149.352 106.934 0)
+			(uuid "92d358b4-df14-4b6c-8e4f-99a1606d5368")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENS_B_N" input
+			(at 149.352 118.364 0)
+			(uuid "7d20f01b-8f7c-489a-b09b-44b3b92403e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENS_B_P" input
+			(at 149.352 116.078 0)
+			(uuid "7d1f2913-aeb8-4881-a416-e33bb88e8d92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENS_C_N" input
+			(at 149.352 127.254 0)
+			(uuid "cde0f3b2-1774-427b-85f8-de06425ebff3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENS_C_P" input
+			(at 149.352 124.968 0)
+			(uuid "1f3c6a1f-1e43-48ef-be40-1be1e5a5854b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2446,6 +2476,26 @@
 		(pin "USBD-" bidirectional
 			(at 95.758 36.83 0)
 			(uuid "7b7b4594-f5fa-40f1-b0ef-1fd95bb5a3d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "aux" bidirectional
+			(at 95.758 94.996 0)
+			(uuid "2d1c9a8c-d63d-4aaf-85db-011ea10c4045")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO" output
+			(at 95.758 92.964 0)
+			(uuid "747f22fa-38b1-426e-94ce-1688c3289ea2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,66 +3028,6 @@
 				(justify left)
 			)
 		)
-		(pin "sens_a+" input
-			(at 228.346 106.934 180)
-			(uuid "b2885e72-7bf2-4201-8597-b8f5e4ceca30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "sens_a-" input
-			(at 228.346 109.22 180)
-			(uuid "bc0a16b1-5087-4cf8-ba19-46b8be3d9809")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "sens_b+" input
-			(at 228.346 116.078 180)
-			(uuid "accc6e2e-ef9d-4f59-9932-a4c1c468fb99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "sens_b-" input
-			(at 228.346 118.364 180)
-			(uuid "d84263d8-b4a1-490d-a764-3d05869d3d3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "sens_c+" input
-			(at 228.346 124.968 180)
-			(uuid "17694f76-bf0e-4245-85e8-1e7368e73a1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "sens_c-" input
-			(at 228.346 127.254 180)
-			(uuid "f24e316b-b873-45fb-abaa-5e06090ff3fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TEMP" output
 			(at 228.346 98.298 180)
 			(uuid "c39938f4-0ce6-46ed-8a30-5aebd3674096")
@@ -3061,6 +3051,66 @@
 		(pin "TEMP2" output
 			(at 228.346 93.726 180)
 			(uuid "6fcd9d13-a31d-4b0a-9f73-16737878c609")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_A_N" output
+			(at 228.346 109.22 180)
+			(uuid "3b2f1df8-f973-4e12-8ce9-aecf109f2b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_A_P" output
+			(at 228.346 106.934 180)
+			(uuid "9f34b5ad-71f0-4c5d-abdf-eb9b2661f075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_B_N" output
+			(at 228.346 118.364 180)
+			(uuid "fd051f38-8359-43c2-84de-d660206920f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_B_P" output
+			(at 228.346 116.078 180)
+			(uuid "90016940-a6c4-470c-a26f-1e7c022bbd00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_C_N" output
+			(at 228.346 127.254 180)
+			(uuid "4db56e73-8eb4-47b4-b3fd-629436a4dca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENS_C_P" output
+			(at 228.346 124.968 180)
+			(uuid "e38dadc0-9bde-4239-a318-7427073ab637")
 			(effects
 				(font
 					(size 1.27 1.27)

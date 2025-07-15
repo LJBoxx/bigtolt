@@ -3754,7 +3754,7 @@
 		(uuid "291d4edc-78ac-4aef-80e1-59c320f6ab9f")
 	)
 	(junction
-		(at 243.078 40.386)
+		(at 244.856 141.986)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ba6b99f-9482-451d-9725-5b6508710e0c")
@@ -3796,7 +3796,7 @@
 		(uuid "87c0d32a-9e63-4f3c-8c35-5ef68e04cc16")
 	)
 	(junction
-		(at 244.856 141.986)
+		(at 243.078 40.386)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87d103d1-2ff3-42b0-b5d9-97a37e468485")
@@ -3929,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 46.228) (xy 243.078 40.386)
+			(xy 244.856 147.828) (xy 244.856 141.986)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.856 147.828) (xy 244.856 141.986)
+			(xy 243.078 46.228) (xy 243.078 40.386)
 		)
 		(stroke
 			(width 0)
@@ -4039,7 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.856 141.986) (xy 246.888 141.986)
+			(xy 243.078 40.386) (xy 245.11 40.386)
 		)
 		(stroke
 			(width 0)
@@ -4229,7 +4229,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 36.068) (xy 243.078 40.386)
+			(xy 244.856 137.668) (xy 244.856 141.986)
 		)
 		(stroke
 			(width 0)
@@ -4239,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 40.386) (xy 245.11 40.386)
+			(xy 244.856 141.986) (xy 246.888 141.986)
 		)
 		(stroke
 			(width 0)
@@ -4299,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.934 137.668) (xy 244.856 137.668)
+			(xy 232.156 36.068) (xy 243.078 36.068)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.856 137.668) (xy 244.856 141.986)
+			(xy 243.078 36.068) (xy 243.078 40.386)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.156 36.068) (xy 243.078 36.068)
+			(xy 233.934 137.668) (xy 244.856 137.668)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5090,7 @@
 		)
 		(uuid "10145c84-6c95-4bc0-9d5f-62beb89e0b65")
 	)
-	(hierarchical_label "SENS_A-"
+	(hierarchical_label "SENS_A_N"
 		(shape input)
 		(at 269.24 53.34 270)
 		(effects
@@ -5178,7 +5178,7 @@
 		)
 		(uuid "5d08345c-32de-45ef-96b4-4b13b5f95fa4")
 	)
-	(hierarchical_label "SENS_A+"
+	(hierarchical_label "SENS_A_P"
 		(shape input)
 		(at 254 53.34 270)
 		(effects
@@ -5233,7 +5233,7 @@
 		)
 		(uuid "6eb91f42-9c2d-4212-87a0-60a1b7d7a700")
 	)
-	(hierarchical_label "SENS_C+"
+	(hierarchical_label "SENS_C_P"
 		(shape input)
 		(at 255.778 154.94 270)
 		(effects
@@ -5288,7 +5288,7 @@
 		)
 		(uuid "8b91a77a-155e-403b-9f99-8879ef8654a0")
 	)
-	(hierarchical_label "SENS_C-"
+	(hierarchical_label "SENS_C_N"
 		(shape input)
 		(at 271.018 154.94 270)
 		(effects
@@ -5387,7 +5387,7 @@
 		)
 		(uuid "bbd217ea-f35d-467f-b630-541bfe01ccb9")
 	)
-	(hierarchical_label "SENS_B-"
+	(hierarchical_label "SENS_B_N"
 		(shape input)
 		(at 271.78 103.632 270)
 		(effects
@@ -5519,7 +5519,7 @@
 		)
 		(uuid "e8e95d33-d3e0-4d0b-b066-696a78d46e43")
 	)
-	(hierarchical_label "SENS_B+"
+	(hierarchical_label "SENS_B_P"
 		(shape input)
 		(at 256.54 103.632 270)
 		(effects
@@ -5833,7 +5833,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 248.92 40.386 270)
+		(at 250.698 141.986 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5842,7 +5842,7 @@
 		(fields_autoplaced yes)
 		(uuid "110f09c6-eba3-492b-a5a6-232e200756fe")
 		(property "Reference" "R33"
-			(at 248.92 34.036 90)
+			(at 250.698 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5850,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 248.92 36.576 90)
+			(at 250.698 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5858,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.92 38.608 90)
+			(at 250.698 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 40.386 0)
+			(at 250.698 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 40.386 0)
+			(at 250.698 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6627,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 244.856 151.638 0)
+		(at 243.078 50.038 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6635,7 +6635,7 @@
 		(dnp no)
 		(uuid "20747ff7-bdb7-4df4-9a5f-d2dfc74e5aad")
 		(property "Reference" "C40"
-			(at 245.364 148.844 0)
+			(at 243.586 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,7 +6644,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 245.618 153.67 0)
+			(at 243.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6653,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 245.8212 155.448 0)
+			(at 244.0432 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +6662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 244.856 151.638 0)
+			(at 243.078 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 244.856 151.638 0)
+			(at 243.078 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7706,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A3166DCKR")
-		(at 232.156 43.688 270)
+		(at 233.934 145.288 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7714,7 +7714,7 @@
 		(dnp no)
 		(uuid "3bb17427-c336-45b2-a30b-793547220c5f")
 		(property "Reference" "U10"
-			(at 223.774 40.386 90)
+			(at 225.552 141.986 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +7722,7 @@
 			)
 		)
 		(property "Value" "MC74VHC1GT66"
-			(at 218.694 43.18 90)
+			(at 220.472 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,7 +7730,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 228.346 42.418 0)
+			(at 230.124 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +7739,7 @@
 			)
 		)
 		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
-			(at 234.696 43.688 0)
+			(at 236.474 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,7 +7748,7 @@
 			)
 		)
 		(property "Description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70"
-			(at 232.156 43.688 0)
+			(at 233.934 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8388,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 241.554 147.828 0)
+		(at 239.776 46.228 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8397,7 +8397,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c1eb211-e554-4167-bf9f-731e804ad675")
 		(property "Reference" "#PWR096"
-			(at 241.554 151.638 0)
+			(at 239.776 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 241.554 142.748 0)
+			(at 239.776 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +8414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.554 147.828 0)
+			(at 239.776 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.554 147.828 0)
+			(at 239.776 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.554 147.828 0)
+			(at 239.776 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9489,7 @@
 	(symbol
 		(lib_name "INA241_1")
 		(lib_id "Amplifier_Current:INA241")
-		(at 263.398 151.13 180)
+		(at 261.62 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9498,7 +9498,7 @@
 		(fields_autoplaced yes)
 		(uuid "6166fc6b-aa3b-4e43-9af4-75d6a5f858e6")
 		(property "Reference" "U9"
-			(at 263.398 143.51 0)
+			(at 261.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,7 +9506,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 263.398 151.13 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9514,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 263.398 151.13 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 263.398 151.13 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 263.398 151.13 0)
+			(at 261.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9975,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A3166DCKR")
-		(at 233.934 145.288 270)
+		(at 232.156 43.688 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9983,7 +9983,7 @@
 		(dnp no)
 		(uuid "700dc483-ca59-475a-98e3-90b06f4f2d03")
 		(property "Reference" "U8"
-			(at 225.552 141.986 90)
+			(at 223.774 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +9991,7 @@
 			)
 		)
 		(property "Value" "MC74VHC1GT66"
-			(at 220.472 144.78 90)
+			(at 218.694 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9999,7 +9999,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 230.124 144.018 0)
+			(at 228.346 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +10008,7 @@
 			)
 		)
 		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
-			(at 236.474 145.288 0)
+			(at 234.696 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,7 +10017,7 @@
 			)
 		)
 		(property "Description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70"
-			(at 233.934 145.288 0)
+			(at 232.156 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +11290,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 239.776 46.228 0)
+		(at 241.554 147.828 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11299,7 +11299,7 @@
 		(fields_autoplaced yes)
 		(uuid "96478526-61a8-4879-8304-5cd518374688")
 		(property "Reference" "#PWR0152"
-			(at 239.776 50.038 0)
+			(at 241.554 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11308,7 +11308,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 239.776 41.148 0)
+			(at 241.554 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.776 46.228 0)
+			(at 241.554 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.776 46.228 0)
+			(at 241.554 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,7 +11334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 239.776 46.228 0)
+			(at 241.554 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12511,7 +12511,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 243.078 53.848 180)
+		(at 244.856 155.448 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12520,7 +12520,7 @@
 		(fields_autoplaced yes)
 		(uuid "accf941c-a330-47cd-87c8-cc83b1813269")
 		(property "Reference" "#PWR074"
-			(at 243.078 50.038 0)
+			(at 244.856 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12529,7 +12529,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 243.078 58.166 0)
+			(at 244.856 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.078 53.848 0)
+			(at 244.856 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.078 53.848 0)
+			(at 244.856 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 243.078 53.848 0)
+			(at 244.856 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13186,7 +13186,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 244.856 155.448 180)
+		(at 243.078 53.848 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13195,7 +13195,7 @@
 		(fields_autoplaced yes)
 		(uuid "c37a4c78-9669-4ed1-a658-5948119ea5a4")
 		(property "Reference" "#PWR099"
-			(at 244.856 151.638 0)
+			(at 243.078 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13204,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 244.856 159.766 0)
+			(at 243.078 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,7 +13212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 244.856 155.448 0)
+			(at 243.078 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13221,7 +13221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 244.856 155.448 0)
+			(at 243.078 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +13230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 244.856 155.448 0)
+			(at 243.078 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +13252,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.934 156.718 0)
+		(at 232.156 55.118 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13260,7 +13260,7 @@
 		(dnp no)
 		(uuid "c46dd30f-0614-4329-b0ce-374d011e9e9b")
 		(property "Reference" "C41"
-			(at 229.362 154.178 0)
+			(at 227.584 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13269,7 +13269,7 @@
 			)
 		)
 		(property "Value" "15n"
-			(at 229.87 159.004 0)
+			(at 228.092 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,7 +13278,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 234.8992 160.528 0)
+			(at 233.1212 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13287,7 +13287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.934 156.718 0)
+			(at 232.156 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,7 +13296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.934 156.718 0)
+			(at 232.156 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +13388,7 @@
 	(symbol
 		(lib_name "INA241_1")
 		(lib_id "Amplifier_Current:INA241")
-		(at 261.62 49.53 180)
+		(at 263.398 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13396,7 +13396,7 @@
 		(dnp no)
 		(uuid "c7f7dd4e-2241-49f3-aaeb-aee7854a43b9")
 		(property "Reference" "U5"
-			(at 261.62 40.64 0)
+			(at 263.398 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13404,7 @@
 			)
 		)
 		(property "Value" "INA240/241"
-			(at 261.874 43.18 0)
+			(at 263.652 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13412,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 261.62 49.53 0)
+			(at 263.398 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 49.53 0)
+			(at 263.398 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +13430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 49.53 0)
+			(at 263.398 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13821,7 +13821,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.078 50.038 0)
+		(at 244.856 151.638 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13829,7 +13829,7 @@
 		(dnp no)
 		(uuid "ce8180cc-9f6a-43ab-874d-1341cc562896")
 		(property "Reference" "C30"
-			(at 243.586 47.244 0)
+			(at 245.364 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13838,7 +13838,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 243.84 52.07 0)
+			(at 245.618 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13847,7 +13847,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 244.0432 53.848 0)
+			(at 245.8212 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13856,7 +13856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.078 50.038 0)
+			(at 244.856 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13865,7 +13865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.078 50.038 0)
+			(at 244.856 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,7 +14290,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 232.156 58.928 180)
+		(at 233.934 160.528 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14299,7 +14299,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd47e2ab-6670-4771-a337-0dbdea0bcc8f")
 		(property "Reference" "#PWR0124"
-			(at 232.156 55.118 0)
+			(at 233.934 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14308,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 232.156 63.246 0)
+			(at 233.934 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14316,7 +14316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.156 58.928 0)
+			(at 233.934 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14325,7 +14325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.156 58.928 0)
+			(at 233.934 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14334,7 +14334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 232.156 58.928 0)
+			(at 233.934 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14822,7 +14822,7 @@
 	)
 	(symbol
 		(lib_id "power:VSSA")
-		(at 233.934 160.528 180)
+		(at 232.156 58.928 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14831,7 +14831,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f91dc6-85d2-4409-aeeb-91ddf84cb945")
 		(property "Reference" "#PWR098"
-			(at 233.934 156.718 0)
+			(at 232.156 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,7 +14840,7 @@
 			)
 		)
 		(property "Value" "VSSA"
-			(at 233.934 164.846 0)
+			(at 232.156 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,7 +14848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.934 160.528 0)
+			(at 232.156 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14857,7 +14857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.934 160.528 0)
+			(at 232.156 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14866,7 +14866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 233.934 160.528 0)
+			(at 232.156 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,7 +15024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.698 141.986 270)
+		(at 248.92 40.386 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15033,7 +15033,7 @@
 		(fields_autoplaced yes)
 		(uuid "f10a3e3a-0a37-4aa6-bfc7-833c96941d25")
 		(property "Reference" "R35"
-			(at 250.698 135.636 90)
+			(at 248.92 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15041,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 250.698 138.176 90)
+			(at 248.92 36.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15049,7 +15049,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 250.698 140.208 90)
+			(at 248.92 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15058,7 +15058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.698 141.986 0)
+			(at 248.92 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15067,7 +15067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.698 141.986 0)
+			(at 248.92 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15158,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 232.156 55.118 0)
+		(at 233.934 156.718 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15166,7 +15166,7 @@
 		(dnp no)
 		(uuid "f51c6d46-9343-44d3-b939-59c44a0f1a27")
 		(property "Reference" "C29"
-			(at 227.584 52.578 0)
+			(at 229.362 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15175,7 +15175,7 @@
 			)
 		)
 		(property "Value" "15n"
-			(at 228.092 57.404 0)
+			(at 229.87 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,7 +15184,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 233.1212 58.928 0)
+			(at 234.8992 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +15193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.156 55.118 0)
+			(at 233.934 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,7 +15202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.156 55.118 0)
+			(at 233.934 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
