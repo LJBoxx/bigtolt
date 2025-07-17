@@ -3693,6 +3693,17 @@
 		)
 		(uuid "4c1a8168-d0e7-4980-910e-5f999197d62e")
 	)
+	(text "#define HW_USE_BRK\n\n#define BRK_GPIO				GPIOB\n#define BRK_PIN					12\n"
+		(exclude_from_sim no)
+		(at 121.92 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c7cc49a-336d-49ff-8078-05e2ddb87432")
+	)
 	(text "Gain 20V/V\n"
 		(exclude_from_sim no)
 		(at 275.336 43.18 0)
@@ -5540,6 +5551,17 @@
 			(justify right)
 		)
 		(uuid "ec1f50e1-5a7a-4d9a-a232-33bd317d577b")
+	)
+	(hierarchical_label "BRK"
+		(shape bidirectional)
+		(at 109.474 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5f01105-ca13-4396-86de-b051aa463f9e")
 	)
 	(hierarchical_label "SCK_ADC_EXT"
 		(shape input)
