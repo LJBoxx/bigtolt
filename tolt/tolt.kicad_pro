@@ -259,7 +259,7 @@
       },
       {
         "bottomLayer": 8,
-        "enabled": false,
+        "enabled": true,
         "name": "sig/power",
         "topLayer": 6
       }
