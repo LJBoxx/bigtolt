@@ -1778,6 +1778,16 @@
 		)
 		(uuid "a025a409-3f58-4a5a-8009-06ddf38d8a4a")
 	)
+	(text "500a ocp limit for 40s\n650k 10k divider = 50mV from 3v3\n"
+		(exclude_from_sim no)
+		(at 117.094 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc365fb7-800f-4b9d-be8c-73f65dcb338d")
+	)
 	(text_box "Need to add lowpass filter and check how sd/od really works (seems to be pulled high normally)\nCheck the driver datasheet\n"
 		(exclude_from_sim no)
 		(at 98.298 20.066 0)
@@ -4275,7 +4285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "320k"
+		(property "Value" "650k"
 			(at 85.09 169.9259 0)
 			(effects
 				(font
@@ -4345,7 +4355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "320k"
+		(property "Value" "650k"
 			(at 85.09 114.5539 0)
 			(effects
 				(font
@@ -4696,7 +4706,7 @@
 		(fields_autoplaced yes)
 		(uuid "477db084-12f2-4fea-8b05-81117ff06a88")
 		(property "Reference" "R47"
-			(at 251.968 30.9879 0)
+			(at 252.73 30.9879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,8 +4714,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240k"
-			(at 251.968 33.5279 0)
+		(property "Value" "305k"
+			(at 252.73 33.5279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "320k"
+		(property "Value" "650k"
 			(at 83.82 62.9919 0)
 			(effects
 				(font
@@ -5793,7 +5803,7 @@
 		(fields_autoplaced yes)
 		(uuid "86da1003-3876-403a-a8fb-3c24bf6ee709")
 		(property "Reference" "R43"
-			(at 216.408 30.2259 0)
+			(at 217.17 30.2259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,8 +5811,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240k"
-			(at 216.408 32.7659 0)
+		(property "Value" "305k"
+			(at 217.17 32.7659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6647,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a14fc59-d3ec-4494-84fd-4893ff881f52")
 		(property "Reference" "R49"
-			(at 269.494 31.7499 0)
+			(at 269.24 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,8 +6655,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "480k"
-			(at 269.494 34.2899 0)
+		(property "Value" "610k"
+			(at 269.24 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9058,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4792100-f723-4fac-ba6f-2fefc9656066")
 		(property "Reference" "R45"
-			(at 234.188 30.2259 0)
+			(at 234.95 30.2259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,8 +9066,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240k"
-			(at 234.188 32.7659 0)
+		(property "Value" "305k"
+			(at 234.95 32.7659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
