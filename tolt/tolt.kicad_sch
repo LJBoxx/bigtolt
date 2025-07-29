@@ -2613,7 +2613,7 @@
 		)
 	)
 	(sheet
-		(at 250.444 150.368)
+		(at 186.69 145.796)
 		(size 14.224 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2629,7 +2629,7 @@
 		)
 		(uuid "8ce7e076-9400-4950-85dd-c0cbbbb909ec")
 		(property "Sheetname" "converters"
-			(at 250.444 149.6564 0)
+			(at 186.69 145.0844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2638,7 @@
 			)
 		)
 		(property "Sheetfile" "converters.kicad_sch"
-			(at 250.444 164.9226 0)
+			(at 186.69 160.3506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
