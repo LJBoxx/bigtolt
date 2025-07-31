@@ -145,7 +145,7 @@
 		(uuid "c9b61593-baba-48fc-a7f1-21666446edd1")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/IND-SMD_L5.0-W5.0-H2.1.wrl"
+	(model "../IND-SMD_L5.0-W5.0-H2.1.wrl"
 		(offset
 			(xyz -4.16 -2.29 -0)
 		)

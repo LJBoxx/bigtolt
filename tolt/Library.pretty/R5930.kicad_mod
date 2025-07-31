@@ -50,46 +50,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -8.5 -4.75)
-		(end -8.5 -4.75)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "90ff8d83-88bc-459a-90b3-d2eaa014e395")
-	)
-	(fp_line
-		(start -8.5 -4.75)
-		(end 8.5 -4.75)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e03cc8a8-68e6-4305-a161-1fb8fbf26031")
-	)
-	(fp_line
-		(start 8.5 -4.75)
-		(end 8.5 4.75)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a2617790-0f73-4ed5-b817-ff9b8e970674")
-	)
-	(fp_line
-		(start 8.5 4.75)
-		(end -8.5 4.75)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "5dd84d9e-cf66-464d-b121-67cb22aa44ca")
-	)
 	(fp_circle
 		(center -7.5 3.8)
 		(end -7.47 3.8)
@@ -125,7 +85,7 @@
 		(uuid "44fed30d-608c-48bb-ba0c-35dac61deaa4")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R5930.wrl"
+	(model "../R5930.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)
