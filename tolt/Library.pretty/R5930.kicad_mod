@@ -85,7 +85,7 @@
 		(uuid "44fed30d-608c-48bb-ba0c-35dac61deaa4")
 	)
 	(embedded_fonts no)
-	(model "../R5930.wrl"
+	(model "../R5930.step"
 		(offset
 			(xyz 0 -0 -0)
 		)

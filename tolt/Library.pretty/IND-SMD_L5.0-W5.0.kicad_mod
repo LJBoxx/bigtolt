@@ -145,15 +145,15 @@
 		(uuid "c9b61593-baba-48fc-a7f1-21666446edd1")
 	)
 	(embedded_fonts no)
-	(model "../IND-SMD_L5.0-W5.0-H2.1.wrl"
+	(model "../IND-SMD_L5.0-W5.0-H2.1.step"
 		(offset
-			(xyz -4.16 -2.29 -0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 270)
+			(xyz -0 -0 -90)
 		)
 	)
 )
