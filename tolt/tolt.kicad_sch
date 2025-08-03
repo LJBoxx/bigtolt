@@ -676,6 +676,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.838 133.858) (xy 100.838 156.718)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c324d14-3ef1-48ef-88f2-6bf5a7dd5c4e")
+	)
+	(wire
+		(pts
 			(xy 95.758 92.964) (xy 108.458 92.964)
 		)
 		(stroke
@@ -693,6 +703,16 @@
 			(type default)
 		)
 		(uuid "5a145010-139b-4f81-b336-a6c6277f4b8a")
+	)
+	(wire
+		(pts
+			(xy 113.03 157.988) (xy 113.03 155.956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecf3e73-6c67-4a16-a20a-b3285d9a8ea7")
 	)
 	(wire
 		(pts
@@ -716,6 +736,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 155.956) (xy 102.108 155.956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a78a229-73c8-4b3f-9a44-208966dbd6e8")
+	)
+	(wire
+		(pts
 			(xy 95.758 63.754) (xy 108.458 63.754)
 		)
 		(stroke
@@ -726,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.776 153.924) (xy 112.776 157.988)
+			(xy 118.11 153.924) (xy 118.11 157.988)
 		)
 		(stroke
 			(width 0)
@@ -856,6 +886,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.108 155.956) (xy 102.108 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4afe161-5264-466d-90a7-238c823b96fc")
+	)
+	(wire
+		(pts
 			(xy 201.676 71.374) (xy 228.346 71.374)
 		)
 		(stroke
@@ -883,6 +923,16 @@
 			(type default)
 		)
 		(uuid "a7c2d356-a365-4d30-b134-60287e7a1a82")
+	)
+	(wire
+		(pts
+			(xy 95.758 133.858) (xy 100.838 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f301e2-1794-4703-8219-f09f75a64bd2")
 	)
 	(wire
 		(pts
@@ -1006,6 +1056,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.108 131.318) (xy 95.758 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf089977-ac6a-4cf3-b706-14baf0b91f89")
+	)
+	(wire
+		(pts
 			(xy 149.352 127.254) (xy 228.346 127.254)
 		)
 		(stroke
@@ -1013,6 +1073,16 @@
 			(type default)
 		)
 		(uuid "d1152c91-4e56-4e0e-8b4f-b96b0e01a4b5")
+	)
+	(wire
+		(pts
+			(xy 110.744 156.718) (xy 110.744 157.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d3f43b-6f3e-44f2-bd36-4384e15035e3")
 	)
 	(wire
 		(pts
@@ -1026,13 +1096,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.062 153.924) (xy 115.062 157.988)
+			(xy 120.65 153.924) (xy 120.65 157.988)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbb91f1b-5b43-479f-ba76-1b847321c88f")
+		(uuid "d820515c-2056-4afe-a30e-149fcef7182c")
 	)
 	(wire
 		(pts
@@ -1113,6 +1183,16 @@
 			(type default)
 		)
 		(uuid "f44d78a9-3bc2-4f70-8466-5c4beec1e0c1")
+	)
+	(wire
+		(pts
+			(xy 100.838 156.718) (xy 110.744 156.718)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb2934c-9d6b-4a80-9d34-95ef1c088b36")
 	)
 	(wire
 		(pts
@@ -2052,7 +2132,7 @@
 			)
 		)
 		(pin "PC10_UART_TX" output
-			(at 115.062 153.924 270)
+			(at 120.65 153.924 270)
 			(uuid "6afb3734-5dfd-4a20-a737-9435839fb04c")
 			(effects
 				(font
@@ -2062,7 +2142,7 @@
 			)
 		)
 		(pin "PC11_UART_RX" input
-			(at 112.776 153.924 270)
+			(at 118.11 153.924 270)
 			(uuid "b22885e0-e0f3-4ad2-8b6a-e2f2ec69eef9")
 			(effects
 				(font
@@ -2523,6 +2603,26 @@
 				(justify right)
 			)
 		)
+		(pin "ESP_D+" input
+			(at 95.758 133.858 0)
+			(uuid "f232d3bc-3717-483f-b382-6d751f37b058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_D-" input
+			(at 95.758 131.318 0)
+			(uuid "9db8f86d-d8c0-40dd-abae-df19b79ff654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9"
@@ -2565,7 +2665,7 @@
 			)
 		)
 		(pin "PC10_UART_TX" input
-			(at 115.062 157.988 90)
+			(at 120.65 157.988 90)
 			(uuid "8fdb6149-f7d8-467f-9c51-e29a5f4b7d11")
 			(effects
 				(font
@@ -2575,7 +2675,7 @@
 			)
 		)
 		(pin "PC11_UART_RX" output
-			(at 112.776 157.988 90)
+			(at 118.11 157.988 90)
 			(uuid "6d3babec-d021-4298-bf17-46bc2003f13e")
 			(effects
 				(font
@@ -2597,6 +2697,26 @@
 		(pin "sda_bmi" bidirectional
 			(at 126.492 157.988 90)
 			(uuid "3fe56e0f-5e3c-41b8-8439-0a9c0fd4adf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_D+" input
+			(at 110.744 157.988 90)
+			(uuid "7515c0b9-b779-4365-bfa2-576101f381bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_D-" input
+			(at 113.03 157.988 90)
+			(uuid "5a6ef0dd-78fe-4982-a9c6-81aa4255357d")
 			(effects
 				(font
 					(size 1.27 1.27)
