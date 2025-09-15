@@ -3594,6 +3594,16 @@
 		)
 		(uuid "0f6c3d11-1fa6-4ab2-ac4c-33bce71934c7")
 	)
+	(text "needs to be 200v+ cap\n"
+		(exclude_from_sim no)
+		(at 169.672 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48bf2c3a-94d1-43b1-a311-26205635943a")
+	)
 	(text "12-5v\n"
 		(exclude_from_sim no)
 		(at 93.472 46.99 0)
@@ -3742,6 +3752,12 @@
 		(uuid "6281f95c-0071-468a-8fc7-c7fff1c9b5aa")
 	)
 	(junction
+		(at 163.83 108.458)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64d8842d-fcd1-48d8-86c1-8cdcf39f9a6b")
+	)
+	(junction
 		(at 62.738 96.774)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3812,6 +3828,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a59fb9a5-0729-4f69-86f6-31d5af09fade")
+	)
+	(junction
+		(at 152.4 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a91080d1-2124-40d9-a2ac-748cddb1a24e")
 	)
 	(junction
 		(at 40.386 175.26)
@@ -4201,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 96.52) (xy 152.4 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401fb8b1-c0e3-4abe-94e3-b0ff9c4fad80")
+	)
+	(wire
+		(pts
 			(xy 211.582 33.274) (xy 217.932 33.274)
 		)
 		(stroke
@@ -4308,6 +4340,16 @@
 			(type default)
 		)
 		(uuid "5e83e897-1dd2-46c1-8880-d95d84064b58")
+	)
+	(wire
+		(pts
+			(xy 152.4 108.458) (xy 151.384 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8fd25f-bbde-4f3e-9451-8739378bc9bb")
 	)
 	(wire
 		(pts
@@ -4441,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.544 108.458) (xy 164.846 108.458)
+			(xy 160.02 96.52) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4651,6 +4693,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 108.458) (xy 161.544 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b224d6ef-e4c0-4f0f-94d4-9cba400551c1")
+	)
+	(wire
+		(pts
 			(xy 86.614 86.614) (xy 89.916 86.614)
 		)
 		(stroke
@@ -4698,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "b763a409-0f01-4da4-95ac-bdf86ed49041")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc9f78a-8dc3-4726-aa2c-92a5b1e8914a")
 	)
 	(wire
 		(pts
@@ -4768,6 +4830,16 @@
 			(type default)
 		)
 		(uuid "d42da33b-f996-4da8-81ae-56216f7b982f")
+	)
+	(wire
+		(pts
+			(xy 163.83 96.52) (xy 163.83 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5731411-99ad-4b7f-b92d-10b4d14fbf68")
 	)
 	(wire
 		(pts
@@ -4888,6 +4960,16 @@
 			(type default)
 		)
 		(uuid "ee254b04-6d5c-4fe7-8f4f-8462d4e3a8a8")
+	)
+	(wire
+		(pts
+			(xy 163.83 108.458) (xy 164.846 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8956ce-a20d-4131-88d8-df914af9a4e4")
 	)
 	(wire
 		(pts
@@ -7002,7 +7084,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 151.384 108.458 0)
+		(at 151.13 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7011,7 +7093,7 @@
 		(fields_autoplaced yes)
 		(uuid "228c76ca-6a2f-4df3-aafa-331a0a327309")
 		(property "Reference" "#PWR064"
-			(at 151.384 112.268 0)
+			(at 151.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7102,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 151.384 103.378 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.384 108.458 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.384 108.458 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 151.384 108.458 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,6 +11897,74 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/8ce7e076-9400-4950-85dd-c0cbbbb909ec"
 					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a9429e-a7e8-45dc-84ee-c0f1faf5e2a2")
+		(property "Reference" "C85"
+			(at 156.21 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 156.21 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 160.02 95.5548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "267480bd-0a17-4bfe-a6e8-5e57f5f74845")
+		)
+		(pin "2"
+			(uuid "64e5eb95-f88b-4966-a2c5-40e9d2001563")
+		)
+		(instances
+			(project ""
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/8ce7e076-9400-4950-85dd-c0cbbbb909ec"
+					(reference "C85")
 					(unit 1)
 				)
 			)
