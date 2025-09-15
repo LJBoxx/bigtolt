@@ -3212,6 +3212,17 @@
 	)
 	(hierarchical_label "Ph_b"
 		(shape bidirectional)
+		(at 86.614 100.584 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2a417d6-986e-43e5-a941-82c58022c342")
+	)
+	(hierarchical_label "Ph_b"
+		(shape bidirectional)
 		(at 232.41 27.686 90)
 		(effects
 			(font
@@ -3231,6 +3242,17 @@
 			(justify left)
 		)
 		(uuid "bb8bc306-069d-4178-b454-3d797896ac58")
+	)
+	(hierarchical_label "Ph_c"
+		(shape bidirectional)
+		(at 87.63 155.956 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33da75e-89ef-4c3b-80dd-f4e62c211dda")
 	)
 	(hierarchical_label "H_B"
 		(shape input)
@@ -3253,6 +3275,17 @@
 			(justify left)
 		)
 		(uuid "c5ce1d59-8c43-4f02-a18f-65f670d8945d")
+	)
+	(hierarchical_label "Ph_a"
+		(shape bidirectional)
+		(at 86.36 49.022 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c60e5e74-f8c6-4d70-ba67-41cc9d7b7d73")
 	)
 	(hierarchical_label "SENS_C+"
 		(shape input)
@@ -9594,72 +9627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 155.956 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98869c6e-f127-4eb6-b25c-fcf50f4c5a3c")
-		(property "Reference" "#PWR046"
-			(at 87.63 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fd254a4-64cb-4072-8593-9cf921acf0b5")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 82.042 73.152 0)
 		(unit 1)
@@ -11673,72 +11640,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 86.614 100.584 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2e8229e-8aa6-4f4d-9f8c-b6476647f555")
-		(property "Reference" "#PWR041"
-			(at 86.614 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.614 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.614 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.614 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.614 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9121d35-99be-4078-bfda-e704298c6a0b")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 76.454 120.904 0)
 		(unit 1)
@@ -11980,72 +11881,6 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 49.022 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0d2419a-3842-402b-89a8-1dc9832e59fa")
-		(property "Reference" "#PWR036"
-			(at 86.36 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80d02553-a779-47f3-9050-6178b11acafd")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/ca9cc269-3e36-4e00-8810-1c2cb270ed60"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
