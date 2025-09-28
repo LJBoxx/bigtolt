@@ -2746,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 48.514) (xy 63.754 48.514)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4beb5824-bbb1-497c-8327-328b5386b93c")
+	)
+	(wire
+		(pts
 			(xy 258.826 59.69) (xy 258.826 61.976)
 		)
 		(stroke
@@ -2783,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "4eca57ca-d63d-4869-af40-27e4bed6f6f3")
-	)
-	(wire
-		(pts
-			(xy 62.738 48.514) (xy 63.754 48.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5049631b-71ea-41f9-b79b-0b95b1fd4a6e")
 	)
 	(wire
 		(pts
@@ -3016,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.134 40.64) (xy 56.134 48.514)
+			(xy 56.134 40.64) (xy 56.134 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.134 48.514) (xy 55.118 48.514)
+			(xy 56.134 48.26) (xy 55.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3683,6 +3683,16 @@
 			(type default)
 		)
 		(uuid "c0967338-e372-40df-9b44-ec8e1f4ec7c7")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 63.5 48.514)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4778243-fb0a-4199-b726-215604405828")
 	)
 	(wire
 		(pts
@@ -6681,7 +6691,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.928 48.514 90)
+		(at 59.69 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6690,7 +6700,7 @@
 		(fields_autoplaced yes)
 		(uuid "22b9ab6e-4898-4dc8-ad83-72ddd728994c")
 		(property "Reference" "R104"
-			(at 58.928 42.672 90)
+			(at 59.69 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6708,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 58.928 45.212 90)
+			(at 59.69 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6716,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 58.928 50.292 90)
+			(at 59.69 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.928 48.514 0)
+			(at 59.69 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.928 48.514 0)
+			(at 59.69 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
