@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.7
         }
       },
       "diff_pair_dimensions": [
@@ -169,6 +169,42 @@
         ],
         [
           "solder_mask_bridge|70450000|121560000|d5fe0f28-be05-4c43-a8aa-e4cc756f69bc|2f068cf5-8d8c-4b85-b045-a929aab195bb",
+          ""
+        ],
+        [
+          "unconnected_items|54250664|113148000|F.Cu|4|37664e2f-5707-4aaa-a390-762a6742152b|1c09fa60-cc8f-43b4-95f5-582b6bf593fc",
+          ""
+        ],
+        [
+          "unconnected_items|54550000|4800000|F.Cu|4|22dc3531-fabb-4b38-94fe-80b36b2371f3|9d981a57-8d66-4454-83bd-d6c433392b47",
+          ""
+        ],
+        [
+          "unconnected_items|54725000|11300000|F.Cu|4|682e1b4e-eba0-4701-a422-febb7bd5d31a|498ded94-e11e-4e44-888c-34af4b5398c5",
+          ""
+        ],
+        [
+          "unconnected_items|57400000|7325000|F.Cu|4|1c09fa60-cc8f-43b4-95f5-582b6bf593fc|22dc3531-fabb-4b38-94fe-80b36b2371f3",
+          ""
+        ],
+        [
+          "unconnected_items|57400000|7325000|F.Cu|4|1c09fa60-cc8f-43b4-95f5-582b6bf593fc|9ada6eac-d702-4e8a-ab1e-f2554aea3d69",
+          ""
+        ],
+        [
+          "unconnected_items|61600000|8050000|F.Cu|4|52ea9c0e-ecee-4ced-b5a6-4f224b9454d8|f3fddc99-9d0b-4db1-bc65-bbe8b8e383b3",
+          ""
+        ],
+        [
+          "unconnected_items|62475000|11177500|F.Cu|4|f3fddc99-9d0b-4db1-bc65-bbe8b8e383b3|6bcdd9ab-1083-4d5a-917f-cd7d1240f843",
+          ""
+        ],
+        [
+          "unconnected_items|63775000|11177500|F.Cu|4|6bcdd9ab-1083-4d5a-917f-cd7d1240f843|e1147e70-24c3-45cf-a255-81c076738659",
+          ""
+        ],
+        [
+          "unconnected_items|64950000|5100000|F.Cu|4|e433ce9a-c960-45fb-9b6a-1f3239159bd2|9ada6eac-d702-4e8a-ab1e-f2554aea3d69",
           ""
         ]
       ],
