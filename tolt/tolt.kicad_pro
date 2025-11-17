@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.7
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -132,11 +132,35 @@
           ""
         ],
         [
-          "copper_edge_clearance|158615000|141065000|1f03ca09-8fab-495b-80a1-79aec8cb55e1|5a2692d9-2f85-4fc7-9ab8-92cb3fb86c5a",
+          "hole_clearance|154070000|136600000|00373d50-1ab6-49ea-878a-1b03fbd17660|5a2692d9-2f85-4fc7-9ab8-92cb3fb86c5a",
           ""
         ],
         [
-          "copper_edge_clearance|158615000|141735000|1f03ca09-8fab-495b-80a1-79aec8cb55e1|ccefcda0-0d10-4d90-b774-aaec9a8430fe",
+          "hole_clearance|154070000|136600000|00373d50-1ab6-49ea-878a-1b03fbd17660|ccefcda0-0d10-4d90-b774-aaec9a8430fe",
+          ""
+        ],
+        [
+          "hole_clearance|154070000|136800000|00373d50-1ab6-49ea-878a-1b03fbd17660|356f9fda-9de1-46b5-9cad-d18c952dc731",
+          ""
+        ],
+        [
+          "hole_clearance|154070000|136800000|00373d50-1ab6-49ea-878a-1b03fbd17660|f849d0ab-16c9-446b-93bf-40907c2e156c",
+          ""
+        ],
+        [
+          "hole_clearance|154070000|142200000|96d91667-a0cd-4427-b569-94e863f3ac30|0c2b7c36-5020-4251-af94-9e71a9be8966",
+          ""
+        ],
+        [
+          "hole_clearance|154070000|142200000|96d91667-a0cd-4427-b569-94e863f3ac30|d8cc7e8a-35bb-4a3d-916b-088484bc282d",
+          ""
+        ],
+        [
+          "hole_clearance|154070000|142400000|96d91667-a0cd-4427-b569-94e863f3ac30|32e426d2-7048-4371-a74d-06c18bd95523",
+          ""
+        ],
+        [
+          "hole_clearance|154070000|142400000|96d91667-a0cd-4427-b569-94e863f3ac30|b62fe1b9-b552-4f74-9ac9-c1c0fafed3d7",
           ""
         ],
         [
@@ -172,39 +196,39 @@
           ""
         ],
         [
-          "unconnected_items|54250664|113148000|F.Cu|4|37664e2f-5707-4aaa-a390-762a6742152b|1c09fa60-cc8f-43b4-95f5-582b6bf593fc",
+          "unconnected_items|-143750000|49278000|F.Cu|4|e433ce9a-c960-45fb-9b6a-1f3239159bd2|37664e2f-5707-4aaa-a390-762a6742152b",
           ""
         ],
         [
-          "unconnected_items|54550000|4800000|F.Cu|4|22dc3531-fabb-4b38-94fe-80b36b2371f3|9d981a57-8d66-4454-83bd-d6c433392b47",
+          "unconnected_items|-143750000|52228000|F.Cu|4|7a6b2962-f4e9-472a-a7a4-1e58b98439a6|b248e346-1e9e-4884-8b79-67636945ae02",
           ""
         ],
         [
-          "unconnected_items|54725000|11300000|F.Cu|4|682e1b4e-eba0-4701-a422-febb7bd5d31a|498ded94-e11e-4e44-888c-34af4b5398c5",
+          "unconnected_items|-146225000|55355500|F.Cu|4|f3fddc99-9d0b-4db1-bc65-bbe8b8e383b3|52ea9c0e-ecee-4ced-b5a6-4f224b9454d8",
           ""
         ],
         [
-          "unconnected_items|57400000|7325000|F.Cu|4|1c09fa60-cc8f-43b4-95f5-582b6bf593fc|22dc3531-fabb-4b38-94fe-80b36b2371f3",
+          "unconnected_items|-146225000|55355500|F.Cu|4|f3fddc99-9d0b-4db1-bc65-bbe8b8e383b3|6bcdd9ab-1083-4d5a-917f-cd7d1240f843",
           ""
         ],
         [
-          "unconnected_items|57400000|7325000|F.Cu|4|1c09fa60-cc8f-43b4-95f5-582b6bf593fc|9ada6eac-d702-4e8a-ab1e-f2554aea3d69",
+          "unconnected_items|-147100000|49278000|F.Cu|4|9ada6eac-d702-4e8a-ab1e-f2554aea3d69|e433ce9a-c960-45fb-9b6a-1f3239159bd2",
           ""
         ],
         [
-          "unconnected_items|61600000|8050000|F.Cu|4|52ea9c0e-ecee-4ced-b5a6-4f224b9454d8|f3fddc99-9d0b-4db1-bc65-bbe8b8e383b3",
+          "unconnected_items|-151300000|51503000|F.Cu|4|1c09fa60-cc8f-43b4-95f5-582b6bf593fc|22dc3531-fabb-4b38-94fe-80b36b2371f3",
           ""
         ],
         [
-          "unconnected_items|62475000|11177500|F.Cu|4|f3fddc99-9d0b-4db1-bc65-bbe8b8e383b3|6bcdd9ab-1083-4d5a-917f-cd7d1240f843",
+          "unconnected_items|-151300000|51503000|F.Cu|4|1c09fa60-cc8f-43b4-95f5-582b6bf593fc|9ada6eac-d702-4e8a-ab1e-f2554aea3d69",
           ""
         ],
         [
-          "unconnected_items|63775000|11177500|F.Cu|4|6bcdd9ab-1083-4d5a-917f-cd7d1240f843|e1147e70-24c3-45cf-a255-81c076738659",
+          "unconnected_items|-153975000|55478000|F.Cu|4|682e1b4e-eba0-4701-a422-febb7bd5d31a|498ded94-e11e-4e44-888c-34af4b5398c5",
           ""
         ],
         [
-          "unconnected_items|64950000|5100000|F.Cu|4|e433ce9a-c960-45fb-9b6a-1f3239159bd2|9ada6eac-d702-4e8a-ab1e-f2554aea3d69",
+          "unconnected_items|-154150000|48978000|F.Cu|4|22dc3531-fabb-4b38-94fe-80b36b2371f3|9d981a57-8d66-4454-83bd-d6c433392b47",
           ""
         ]
       ],
