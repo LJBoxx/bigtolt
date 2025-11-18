@@ -1854,8 +1854,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -6.35 0)
+			(property "Reference" "U25"
+				(at 0 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1863,7 +1863,7 @@
 				)
 			)
 			(property "Value" "LNK306D"
-				(at 0 -8.89 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1881,7 +1881,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf"
-				(at 0 0 0)
+				(at -5.08 -12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1896,6 +1896,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C394187"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "Lowest Component Count, Energy-Efficient Off-Line Switcher IC"
@@ -9945,7 +9953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA2KiCad:SO-8C_7P-L4.9-W3.9-P1.27-LS6.0-BL-PE3"
+		(property "Footprint" "Package_SO:PowerIntegrations_SO-8C"
 			(at 250.444 54.356 0)
 			(effects
 				(font
@@ -9956,7 +9964,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf"
-			(at 250.444 54.356 0)
+			(at 245.364 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
