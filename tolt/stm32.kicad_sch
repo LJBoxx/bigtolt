@@ -7442,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 234.95 93.98 0)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 234.95 146.05 0)
 			(effects
 				(font
@@ -8871,7 +8871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -9087,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 184.15 142.24 0)
 			(effects
 				(font
@@ -10457,7 +10457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 232.41 43.18 0)
 			(effects
 				(font
@@ -13757,7 +13757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3166.pdf"
 			(at 185.42 92.71 0)
 			(effects
 				(font

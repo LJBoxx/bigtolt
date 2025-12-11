@@ -4304,7 +4304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 156.1592 181.864 0)
 			(effects
 				(font
@@ -6318,6 +6318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 83.312 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa6e14e3-44a6-44c3-9623-aaf8af77d2f2")
 		)
@@ -7611,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 160.9852 181.864 0)
 			(effects
 				(font
@@ -8171,6 +8180,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.296 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 82.296 120.904 0)
 			(effects
 				(font
@@ -9507,6 +9525,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 82.042 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d8e66d8-e530-4c9f-add1-450f1bc3c729")
 		)
@@ -10498,7 +10525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 151.3332 181.864 0)
 			(effects
 				(font

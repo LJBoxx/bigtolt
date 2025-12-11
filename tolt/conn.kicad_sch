@@ -6417,6 +6417,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 124.46 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42c0a2d6-01f2-49bd-b348-d752d1aad286")
 		)
@@ -7019,6 +7028,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.544 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 161.544 125.476 0)
 			(effects
 				(font
@@ -9009,7 +9027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 149.098 124.206 0)
 			(effects
 				(font
@@ -10777,6 +10795,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.546 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 177.546 110.744 0)
 			(effects
 				(font

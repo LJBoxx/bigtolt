@@ -5893,6 +5893,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 170.942 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34450875-8722-4a03-92dc-e2ecc10e1a6e")
 		)
@@ -7067,6 +7076,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 112.268 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3799e2a3-92b3-467c-98cc-90567b9b41b4")
 		)
@@ -7830,6 +7848,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.844 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 148.844 164.846 0)
 			(effects
 				(font
@@ -9049,6 +9076,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 47.752 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2453aec-b2a8-4981-ba4b-ee13127b8983")
 		)
@@ -9517,7 +9553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 20.0152 177.8 0)
 			(effects
 				(font
@@ -9789,7 +9825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 31.4452 177.8 0)
 			(effects
 				(font
@@ -10356,7 +10392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 265.8872 54.356 0)
 			(effects
 				(font
@@ -10940,6 +10976,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.758 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 222.758 100.33 0)
 			(effects
 				(font

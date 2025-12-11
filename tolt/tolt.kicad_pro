@@ -704,15 +704,15 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -767,7 +767,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -858,8 +858,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
