@@ -2361,6 +2361,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907114"
+			(at 38.608 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "336167fa-5b59-4e24-848b-919f45465dac")
 		)
@@ -2886,7 +2895,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bf8fc49-6713-4e08-a68b-4a606ee33d87")
 		(property "Reference" "U17"
-			(at 69.7073 66.294 0)
+			(at 69.7073 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,8 +2903,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BMI160"
-			(at 69.7073 68.834 0)
+		(property "Value" "BMI323"
+			(at 69.7073 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,6 +2931,15 @@
 			)
 		)
 		(property "Description" "Small, low power inertial measurement unit, LGA-14"
+			(at 67.564 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5368700"
 			(at 67.564 78.486 0)
 			(effects
 				(font
@@ -3028,6 +3046,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 47.498 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907114"
 			(at 47.498 74.676 0)
 			(effects
 				(font

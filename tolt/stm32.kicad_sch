@@ -6400,6 +6400,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907114"
+			(at 250.698 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86b03263-a0db-48af-89be-ae8051b74381")
 		)
@@ -6734,6 +6743,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+			(at 91.694 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5290473"
 			(at 91.694 108.204 0)
 			(effects
 				(font
@@ -7864,6 +7882,15 @@
 		)
 		(property "Description" ""
 			(at 251.46 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907114"
+			(at 251.46 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,6 +15347,15 @@
 		)
 		(property "Description" ""
 			(at 248.92 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907114"
+			(at 248.92 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3746,6 +3746,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2970144"
+			(at 59.436 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "8cbf9144-6259-453a-b82e-e81651da0901")
 		)
@@ -4014,7 +4023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10k"
 			(at 45.72 59.1819 0)
 			(effects
 				(font
@@ -4084,7 +4093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10k"
 			(at 46.99 166.1159 0)
 			(effects
 				(font
@@ -7208,6 +7217,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2970144"
+			(at 60.706 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "42fa2bb8-d4ec-46ad-9214-1ca31743a061")
 		)
@@ -9016,6 +9034,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2970144"
+			(at 59.69 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "97a6f6ef-74ed-4638-a980-78a83784a212")
 		)
@@ -9354,7 +9381,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 88.9 180.086 0)
+			(at 88.646 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9438,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfcd4533-8219-46ed-9f58-7c819c373831")
 		(property "Reference" "R2"
-			(at 45.974 108.2039 0)
+			(at 45.72 108.2039 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,8 +9446,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 45.974 110.7439 0)
+		(property "Value" "10k"
+			(at 45.72 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
