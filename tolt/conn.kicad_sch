@@ -5736,6 +5736,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98192"
+			(at 260.096 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2825fa22-3c18-4f12-aed6-698845e82a11")
 		)
@@ -6068,6 +6077,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.948 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160353"
 			(at 91.948 145.542 0)
 			(effects
 				(font
@@ -6848,6 +6866,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160353"
+			(at 248.666 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "397c3ab2-ee8a-405d-a0b4-d789ca571002")
 		)
@@ -7206,6 +7233,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160353"
+			(at 135.128 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2d525272-7fa5-45f3-a3ee-ca83255d4ad5")
 		)
@@ -7490,6 +7526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 270.256 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4317b100-d2fe-42fd-b77c-0cbeea16b26b")
 		)
@@ -7626,6 +7671,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913904"
+			(at 103.886 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c9b26bb-43de-4797-95e9-2f233280f239")
 		)
@@ -7754,6 +7808,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 216.408 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 216.408 62.484 0)
 			(effects
 				(font
@@ -7977,6 +8040,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C471518"
+			(at 137.922 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4471d3be-8f8d-4362-8d37-1e6cb4d2f04e")
 		)
@@ -8191,6 +8263,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 91.186 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9443eebb-e1a2-42e9-9708-b0cec387f11b")
 		)
@@ -8393,6 +8474,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 267.208 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9a24d0e-235d-4617-bdaf-9bc9750ff8e5")
 		)
@@ -8463,6 +8553,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C265372"
+			(at 220.218 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc4b4867-2ec3-445d-89d6-f8e84af88cb4")
 		)
@@ -8525,6 +8624,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.454 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265085"
 			(at 203.454 81.026 0)
 			(effects
 				(font
@@ -8810,6 +8918,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98192"
+			(at 260.096 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "837d13ce-579e-472a-a123-189bf06cd427")
 		)
@@ -8872,6 +8989,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 244.856 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913904"
 			(at 244.856 62.23 0)
 			(effects
 				(font
@@ -8950,6 +9076,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913904"
+			(at 265.176 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc3878aa-8b2f-4ab7-b301-e0cc51c82181")
 		)
@@ -9012,6 +9147,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265085"
 			(at 248.92 79.756 0)
 			(effects
 				(font
@@ -9119,6 +9263,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 154.178 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19019"
+			(at 154.178 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,6 +9552,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 242.062 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265085"
 			(at 242.062 43.688 0)
 			(effects
 				(font
@@ -10031,6 +10193,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 270.256 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59297d3f-835b-44cf-a496-5adc42db2610")
 		)
@@ -10441,6 +10612,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 265.176 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913904"
 			(at 265.176 155.448 0)
 			(effects
 				(font
@@ -11455,6 +11635,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114696"
+			(at 158.75 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f77cb79-dc31-437c-8de0-8904145c5784")
 		)
@@ -11591,6 +11780,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C913904"
+			(at 174.752 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f72ca5f-b3cc-4f1a-9e9e-fd3a33c40790")
 		)
@@ -11653,6 +11851,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 252.476 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 252.476 155.448 0)
 			(effects
 				(font
@@ -11805,6 +12012,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.052 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 162.052 81.026 0)
 			(effects
 				(font
@@ -12376,6 +12592,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 232.156 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4095e235-02ea-49d2-9d87-a1838fcc915d")
 		)
@@ -12814,6 +13039,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 114.3 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01a8d248-cbb3-4ccc-b2b8-7706a5909b8c")
 		)
@@ -13082,6 +13316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160353"
+			(at 248.666 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "99b6dbd2-fa60-4491-abbb-6769b0b4f9d5")
 		)
@@ -13147,6 +13390,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 252.476 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 252.476 123.698 0)
 			(effects
 				(font
@@ -13281,6 +13533,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.704 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843970"
 			(at 44.704 142.494 0)
 			(effects
 				(font
