@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -112,15 +112,7 @@
           ""
         ],
         [
-          "clearance|51783750|147752750|d70d896a-7c9e-4353-844b-54e1a23d9627|7bca5834-5fc1-49fe-88f3-66d8379aee51",
-          ""
-        ],
-        [
           "clearance|51936250|151963750|3c8a9519-a899-4877-abf7-1ff600d379fc|2c27a31f-b559-4160-a4f2-653187bce0d2",
-          ""
-        ],
-        [
-          "clearance|52283750|147752750|76c019c4-f5aa-4d14-8483-4e3c80d37313|d70d896a-7c9e-4353-844b-54e1a23d9627",
           ""
         ],
         [
@@ -889,6 +881,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://sheet.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,

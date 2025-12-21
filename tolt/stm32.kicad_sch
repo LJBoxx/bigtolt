@@ -3061,131 +3061,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -4688,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.656 59.69) (xy 35.306 59.69)
+			(xy 41.656 59.69) (xy 35.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6146,72 +6021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 35.306 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08faf352-5acb-4c5a-84a2-a4c8f31949fb")
-		(property "Reference" "#PWR0101"
-			(at 35.306 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 35.306 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.306 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.306 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 35.306 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17b918c6-2754-4521-8179-93bdd1f9023c")
-		)
-		(instances
-			(project "tolt"
-				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
 		(at 240.03 95.25 0)
 		(unit 1)
@@ -6610,6 +6419,15 @@
 		)
 		(property "Description" ""
 			(at 32.766 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7275084"
+			(at 32.766 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,6 +7314,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C484737"
+			(at 232.41 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "40db74ac-151e-4bd4-b208-a66ffc4a40c0")
 		)
@@ -8269,6 +8096,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C484737"
+			(at 232.41 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7286b5fc-f9b3-4717-b545-03e2f86ba5fb")
 		)
@@ -8979,6 +8815,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C484737"
+			(at 182.88 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "35bff711-46f6-4d16-97fb-ac27a90ce445")
 		)
@@ -9213,6 +9058,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C484737"
+			(at 181.61 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e24fe2b8-6871-4d48-9425-95e2164f62fc")
 		)
@@ -9311,6 +9165,72 @@
 			(project "tolt"
 				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 35.56 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56dca8c7-9e73-4dca-9c33-e841bf936a58")
+		(property "Reference" "#PWR059"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 35.56 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36f6c202-59e1-40d8-8d97-20db5cd5b60c")
+		)
+		(instances
+			(project "tolt"
+				(path "/38c63d96-01d7-4159-b7c0-aa8cee77c3e9/410a2c08-a3a0-4066-ae14-a5c75baf28bb"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9957,7 +9877,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6166fc6b-aa3b-4e43-9af4-75d6a5f858e6")
 		(property "Reference" "U9"
 			(at 261.62 41.91 0)
@@ -9967,8 +9886,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 261.62 49.53 0)
+		(property "Value" "INA240/241"
+			(at 261.62 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,6 +10547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C484737"
+			(at 229.87 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0c3330fa-6e2b-46bd-b7cf-2c099593869a")
 		)
@@ -10941,7 +10869,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79cd55fd-d79d-424f-b044-306986a64961")
 		(property "Reference" "U7"
 			(at 264.16 92.202 0)
@@ -10951,8 +10878,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 264.16 99.822 0)
+		(property "Value" "INA240/241"
+			(at 264.16 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,6 +13974,15 @@
 		)
 		(property "Description" "Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70"
 			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C484737"
+			(at 182.88 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)

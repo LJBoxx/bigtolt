@@ -5949,6 +5949,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114640"
+			(at 208.534 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e624ef64-7e26-4ac1-9205-0587c7b2a2f3")
 		)
@@ -9913,6 +9922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151305"
+			(at 45.212 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d18153dd-2f44-4086-8f48-7a4f33aae0d1")
 		)
@@ -10272,6 +10290,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151305"
+			(at 94.488 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "51730372-0272-4ed1-b0e1-dd0c34f2aa46")
 		)
@@ -10345,6 +10372,15 @@
 		)
 		(property "Description" ""
 			(at 107.442 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105588"
+			(at 107.442 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,6 +11974,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C151305"
+			(at 45.466 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "72cabf8c-35dd-4212-9119-fa97c77d93db")
 		)
@@ -12664,6 +12709,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8"
+			(at 188.976 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C38695"
 			(at 188.976 44.958 0)
 			(effects
 				(font

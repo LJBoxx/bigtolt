@@ -1256,6 +1256,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107696"
+			(at 146.812 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "020944d4-c997-4de1-91d5-6d7cdfcaf236")
 		)
@@ -1391,6 +1400,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107696"
+			(at 144.526 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cec87d79-a7a8-4548-bd3a-794d9155d557")
 		)
@@ -1433,7 +1451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 146.812 165.354 0)
 			(effects
 				(font
@@ -1520,7 +1538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 153.67 164.592 0)
 			(effects
 				(font
@@ -1738,7 +1756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 144.526 157.734 0)
 			(effects
 				(font

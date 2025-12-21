@@ -4437,6 +4437,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122969"
+			(at 214.376 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a52959d5-6307-487a-8b4a-6a1aeda4499c")
 		)
@@ -5573,6 +5582,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C870571"
 			(at 250.19 32.258 0)
 			(effects
 				(font
@@ -7292,6 +7310,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C870571"
+			(at 214.376 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b07d6f2-403b-40c3-a061-fb2f98ecc630")
 		)
@@ -7749,6 +7776,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4303159"
+			(at 266.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96318c00-a4d2-42f4-9570-e6dba4e613e8")
 		)
@@ -8070,7 +8106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "480k"
+		(property "Value" "470k"
 			(at 269.494 34.2899 0)
 			(effects
 				(font
@@ -8098,6 +8134,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 266.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2692714"
 			(at 266.7 33.02 0)
 			(effects
 				(font
@@ -9020,6 +9065,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C122969"
 			(at 232.41 39.116 0)
 			(effects
 				(font
@@ -10143,6 +10197,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C122969"
+			(at 250.19 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb0c4a33-2b58-4573-a914-739dff51fcbe")
 		)
@@ -10790,6 +10853,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C870571"
 			(at 232.41 31.496 0)
 			(effects
 				(font
