@@ -6361,7 +6361,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C913904"
+		(property "LCSC" "C326565"
 			(at 63.754 100.076 0)
 			(effects
 				(font
@@ -7855,7 +7855,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SS1200"
 			(at 34.0995 143.256 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2907114"
+		(property "LCSC" "C22548"
 			(at 85.09 161.29 90)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C913904"
+		(property "LCSC" "C326565"
 			(at 209.804 100.33 0)
 			(effects
 				(font
@@ -10102,7 +10102,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SS1200"
 			(at 34.0995 152.654 0)
 			(effects
 				(font
@@ -10955,7 +10955,7 @@
 			)
 		)
 		(property "Value" "MMSZ5242B"
-			(at 68.072 179.07 90)
+			(at 68.072 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +11033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uf"
 			(at 53.848 161.2899 0)
 			(effects
 				(font
@@ -11481,7 +11481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SS1200"
 			(at 124.46 166.0524 90)
 			(effects
 				(font
@@ -12023,7 +12023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C913904"
+		(property "LCSC" "C326565"
 			(at 169.926 100.33 0)
 			(effects
 				(font
@@ -12244,7 +12244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" "C82601"
 			(at 264.922 50.546 0)
 			(effects
 				(font
@@ -12321,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60474"
+		(property "LCSC" "C2173175"
 			(at 215.392 58.166 0)
 			(effects
 				(font
@@ -12479,7 +12479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C913904"
+		(property "LCSC" "C326565"
 			(at 103.378 100.076 0)
 			(effects
 				(font

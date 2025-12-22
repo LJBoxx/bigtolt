@@ -1864,16 +1864,6 @@
 		)
 		(uuid "8acbfd69-af77-46d7-bcd7-65e82a389c61")
 	)
-	(text "external bootstrap \n\noptionnal for test\n\nPlace only footprint\n\n"
-		(exclude_from_sim no)
-		(at 87.376 28.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9e3dc0af-a666-4d4f-80f9-c9fe5b96c418")
-	)
 	(text "decoupling and bulk for drivers.\n"
 		(exclude_from_sim no)
 		(at 107.95 192.278 0)
@@ -4322,7 +4312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 155.702 180.594 0)
 			(effects
 				(font
@@ -5751,7 +5741,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f871379-50d4-4c6b-9b4c-4b6cde3caf3a")
 		(property "Reference" "D3"
@@ -5828,7 +5818,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53d910a0-29f9-4ae6-9c11-975bb0411e4a")
 		(property "Reference" "C16"
@@ -6453,7 +6443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20165692"
+		(property "LCSC" "C95204"
 			(at 83.312 176.276 0)
 			(effects
 				(font
@@ -7818,7 +7808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 161.036 180.848 0)
 			(effects
 				(font
@@ -8306,7 +8296,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0201c2f-2ebf-4165-ad5c-8774721b2ef1")
 		(property "Reference" "D2"
@@ -8431,7 +8421,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20165692"
+		(property "LCSC" "C95204"
 			(at 82.296 120.904 0)
 			(effects
 				(font
@@ -8868,7 +8858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9ff226f-901c-42ad-9356-f2fdaa4a934a")
 		(property "Reference" "C18"
@@ -9831,7 +9821,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20165692"
+		(property "LCSC" "C95204"
 			(at 82.042 69.342 0)
 			(effects
 				(font
@@ -10306,7 +10296,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e474271f-0ef9-41ad-b7cf-ae917cd87575")
 		(property "Reference" "D1"
@@ -10903,7 +10893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 150.622 180.34 0)
 			(effects
 				(font
@@ -10970,7 +10960,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f64733db-8742-4efb-91ad-a0d4ab0b424e")
 		(property "Reference" "C20"

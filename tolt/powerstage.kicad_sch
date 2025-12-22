@@ -4412,6 +4412,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 100.33 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25fe4b44-9b8a-4756-b814-4dad7d2316cb")
 		)
@@ -4480,6 +4489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 102.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40eaa6ce-1742-49d8-ac5f-00a8be8dce74")
 		)
@@ -4541,6 +4559,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17305"
+			(at 46.99 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 89.916 49.53 90)
 			(effects
 				(font
@@ -4778,6 +4805,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 90.17 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5275,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 139.7 219.71 90)
 			(effects
 				(font
@@ -5267,6 +5303,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 139.7 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,6 +5548,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 48.26 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04ae59cb-cad2-449a-b8e9-ea9a9bc93c8c")
 		)
@@ -5535,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 88.646 246.38 90)
 			(effects
 				(font
@@ -5563,6 +5617,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 88.9 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 89.916 161.29 90)
 			(effects
 				(font
@@ -5631,6 +5694,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 90.17 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 37.846 161.29 90)
 			(effects
 				(font
@@ -5911,6 +5983,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 38.1 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 39.116 246.38 90)
 			(effects
 				(font
@@ -6718,6 +6799,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 39.37 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 39.37 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,6 +6876,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17305"
+			(at 46.99 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7338,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 140.97 161.29 90)
 			(effects
 				(font
@@ -7267,6 +7366,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 140.97 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7626,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 39.116 219.71 90)
 			(effects
 				(font
@@ -7546,6 +7654,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 39.37 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 39.37 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,6 +8321,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 101.6 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a29bc57-766e-4fd0-b24b-2e5234215c9a")
 		)
@@ -8644,6 +8770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 48.26 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3e66abdb-c037-4f93-bb41-fcbb2b37d228")
 		)
@@ -8771,6 +8906,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 149.86 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17305"
+			(at 149.86 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 36.576 76.2 90)
 			(effects
 				(font
@@ -9732,6 +9876,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 36.83 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10502,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 36.576 49.53 90)
 			(effects
 				(font
@@ -10377,6 +10530,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 36.83 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +11751,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 137.16 76.2 90)
 			(effects
 				(font
@@ -11617,6 +11779,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 137.16 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13157,6 +13328,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 149.86 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aadcb5b5-14a9-4521-b30d-b1e3c4de2bfe")
 		)
@@ -13978,6 +14158,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 101.6 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e69b2060-4b71-471a-84ee-7a955445cd0f")
 		)
@@ -14426,7 +14615,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 89.916 76.2 90)
 			(effects
 				(font
@@ -14454,6 +14643,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 90.17 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16236,6 +16434,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 49.53 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c40f43ef-79b0-4f04-b29d-daa8bf50e804")
 		)
@@ -16363,6 +16570,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 149.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17305"
+			(at 149.86 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,7 +17210,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 137.16 49.53 90)
 			(effects
 				(font
@@ -17022,6 +17238,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 137.16 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17367,7 +17592,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 139.7 246.38 90)
 			(effects
 				(font
@@ -17395,6 +17620,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 139.7 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18101,6 +18335,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 149.86 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b91e052-7d0c-4a65-82d8-6bde468cdf6b")
 		)
@@ -18238,6 +18481,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17305"
+			(at 148.59 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18444,7 +18696,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 37.846 134.62 90)
 			(effects
 				(font
@@ -18472,6 +18724,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 38.1 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19390,6 +19651,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 100.33 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38bc59bf-58e3-466d-abea-0068a26f0e6e")
 		)
@@ -19941,6 +20211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 148.59 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08ce07d7-d1e7-4730-9915-f56f96503cab")
 		)
@@ -20419,7 +20698,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 88.646 219.71 90)
 			(effects
 				(font
@@ -20447,6 +20726,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 88.9 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20928,6 +21216,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 49.53 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4cefce0c-72ab-4353-8424-282ad79ee392")
 		)
@@ -21128,6 +21425,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17305"
+			(at 101.6 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f873e44-4b4a-44d5-aaf2-5112c0b58375")
 		)
@@ -21320,7 +21626,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 89.916 134.62 90)
 			(effects
 				(font
@@ -21348,6 +21654,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 90.17 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22300,7 +22615,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24r"
 			(at 140.97 134.62 90)
 			(effects
 				(font
@@ -22328,6 +22643,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5560548"
+			(at 140.97 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)

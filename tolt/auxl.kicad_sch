@@ -2207,7 +2207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uf"
 			(at 48.768 33.528 0)
 			(effects
 				(font
@@ -2388,7 +2388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2907114"
+		(property "LCSC" "C22548"
 			(at 38.608 72.136 0)
 			(effects
 				(font
@@ -3090,7 +3090,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2907114"
+		(property "LCSC" "C22548"
 			(at 47.498 74.676 0)
 			(effects
 				(font
