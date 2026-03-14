@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -121,6 +121,38 @@
         ],
         [
           "clearance|52783750|147752750|0c8a55a3-be19-472f-af0c-6ae7474d5d10|76c019c4-f5aa-4d14-8483-4e3c80d37313",
+          ""
+        ],
+        [
+          "clearance|72923000|135108000|a1b930da-2a63-41eb-8eb3-ea1c98dac905|e1379730-1f1a-49fe-b61f-31caa99f80c8",
+          ""
+        ],
+        [
+          "clearance|73055500|135108000|2877027d-0899-4999-a776-bcbeb340764a|e1379730-1f1a-49fe-b61f-31caa99f80c8",
+          ""
+        ],
+        [
+          "clearance|73325000|135405000|cb0e7e1c-cd65-4df4-9557-56a4fe30f18b|e1379730-1f1a-49fe-b61f-31caa99f80c8",
+          ""
+        ],
+        [
+          "clearance|73325000|136055000|e1379730-1f1a-49fe-b61f-31caa99f80c8|71368fa1-9fad-440b-a420-b246d371157d",
+          ""
+        ],
+        [
+          "clearance|75450000|135155000|69b4e2e4-fb73-4cdd-b4f7-d335cff80127|a358d768-3dc3-4568-8255-189fc3601449",
+          ""
+        ],
+        [
+          "clearance|75450000|135805000|3a3fac70-1c1d-47fc-aa0a-c49538fa742c|69b4e2e4-fb73-4cdd-b4f7-d335cff80127",
+          ""
+        ],
+        [
+          "clearance|75450000|136455000|a3b1c1bd-e3ff-4d13-983e-4912922ae6dc|3a3fac70-1c1d-47fc-aa0a-c49538fa742c",
+          ""
+        ],
+        [
+          "courtyards_overlap|90395000|151735000|69af9f83-be03-4841-aa76-dab4601a1abc|723c3e6e-575c-418f-8bfa-6cbbee56a887",
           ""
         ],
         [
@@ -720,10 +752,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
