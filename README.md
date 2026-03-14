@@ -12,4 +12,4 @@ This board is not tested but the pcb is ready for prototype. BOM and gerber are 
 ![alt text](back.png)
 
 ## Liability
-This project sources are provided **as is** therfore I, and the co controbutors to this repository shall not be held responsible for any damage occured, including but not limited to hardware damages or other physical injury caused by the outcomes of this source. **You are responsible for your actions. If used wrong, it will go wrong**S
+This project sources are provided **as is** therfore I, and the co controbutors to this repository shall not be held responsible for any damage occured, including but not limited to hardware damages or other physical injury caused by the outcomes of this source. **You are responsible for your actions. If used wrong, it will go wrong!**
